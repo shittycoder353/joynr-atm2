@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/service-common/src/main/java/io/joynr/messaging/info/ChannelInformation.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/service-common/src/main/java/io/joynr/messaging/info/package-info.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/service-common/src/main/java/io/joynr/messaging/system/package-info.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/service-common/src/main/java/io/joynr/messaging/system/SystemTimeProvider.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/service-common/src/main/java/io/joynr/messaging/system/TimestampProvider.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/service-common/src/main/java/io/joynr/messaging/datatypes/JoynrBounceProxyControlErrorCode.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/service-common/src/main/java/io/joynr/messaging/datatypes/package-info.java">
+</file>
+</checkstyle>

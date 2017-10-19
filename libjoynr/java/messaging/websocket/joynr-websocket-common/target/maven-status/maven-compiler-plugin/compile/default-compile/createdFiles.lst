@@ -1,0 +1,8 @@
+io/joynr/messaging/websocket/WebsocketModule.class
+io/joynr/messaging/websocket/JoynrWebSocketEndpoint.class
+io/joynr/messaging/websocket/WebSocketMessagingStub.class
+io/joynr/messaging/websocket/WebSocketEndpointFactory.class
+io/joynr/messaging/websocket/WebSocketMessagingSkeleton.class
+io/joynr/messaging/websocket/WebSocketMulticastAddressCalculator.class
+io/joynr/messaging/websocket/WebSocketMessagingSkeleton$MainTransportFlagBearer.class
+io/joynr/messaging/websocket/IWebSocketMessagingSkeleton.class

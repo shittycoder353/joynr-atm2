@@ -1,0 +1,8 @@
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/test/java/io/joynr/accesscontrol/global/jee/MasterRegistrationControlEntryManagerTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/test/java/io/joynr/accesscontrol/global/jee/DomainRoleEntryManagerTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/test/java/io/joynr/accesscontrol/global/jee/OwnerAccessControlEntryManagerTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/test/java/io/joynr/accesscontrol/global/jee/GlobalDomainAccessControllerBeanTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/test/java/io/joynr/accesscontrol/global/jee/OwnerRegistrationControlEntryManagerTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/test/java/io/joynr/accesscontrol/global/jee/MasterAccessControlEntryManagerTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/test/java/io/joynr/accesscontrol/global/jee/GlobalDomainRoleControllerBeanTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/test/java/io/joynr/accesscontrol/global/jee/GlobalDomainAccessControlListEditorBeanTest.java

@@ -1,0 +1,4 @@
+io/joynr/messaging/system/TimestampProvider.class
+io/joynr/messaging/datatypes/JoynrBounceProxyControlErrorCode.class
+io/joynr/messaging/info/ChannelInformation.class
+io/joynr/messaging/system/SystemTimeProvider.class

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/discovery-directory-jee/src/main/java/io/joynr/discovery/jee/JoynrConfigurationProvider.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/discovery-directory-jee/src/main/java/io/joynr/discovery/jee/GlobalCapabilitiesDirectoryEjb.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/discovery-directory-jee/src/main/java/io/joynr/discovery/jee/EntityManagerProducer.java">
+</file>
+</checkstyle>

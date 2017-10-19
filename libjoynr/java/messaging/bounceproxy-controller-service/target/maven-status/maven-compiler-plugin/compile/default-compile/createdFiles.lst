@@ -1,0 +1,10 @@
+io/joynr/messaging/info/BounceProxyStatus.class
+io/joynr/messaging/service/MonitoringServiceRestAdapter$1.class
+io/joynr/messaging/service/MonitoringService.class
+io/joynr/messaging/service/BounceProxyStatusParam.class
+io/joynr/messaging/info/PerformanceMeasures.class
+io/joynr/messaging/info/BounceProxyStatusInformation.class
+io/joynr/messaging/service/MonitoringServiceRestAdapter.class
+io/joynr/messaging/service/MigrationServiceRestAdapter.class
+io/joynr/messaging/service/MigrationService.class
+io/joynr/messaging/info/PerformanceMeasures$Key.class

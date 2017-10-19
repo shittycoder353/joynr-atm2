@@ -1,0 +1,15 @@
+#Mon Oct 16 16:33:44 CEST 2017
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelService.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelServiceRestAdapter.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/info/ChannelStatus.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/package-info.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelServiceConstants.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/info/BounceProxyInformation.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/info/ControlledBounceProxyInformation.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelRecoveryService.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/info/Channel.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelRecoveryServiceRestAdapter.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/info/package-info.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelStatusParam.java=1507901922000
+configuration*?=1443DAB2642D45ECF930253A4A73D32B74F98306
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelErrorNotifier.java=1507901922000

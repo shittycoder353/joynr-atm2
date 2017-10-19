@@ -1,0 +1,13 @@
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/service/AbstractMessagingService.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/filter/CorsFilter.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/modules/package-info.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/LongPollingMessagingDelegate.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/filter/MessageSerializationFilter.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/service/package-info.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/BounceProxyBroadcaster.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/modules/AbstractBounceProxyJerseyModule.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/modules/AtmosphereModule.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/filter/ExpirationFilter.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/service/DefaultBounceProxyChannelServiceImpl.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/modules/DefaultBounceProxyModule.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/filter/CharacterEncodingFilter.java

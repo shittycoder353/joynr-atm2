@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/info/package-info.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/info/Channel.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/info/ControlledBounceProxyInformation.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/info/ChannelStatus.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/info/BounceProxyInformation.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelStatusParam.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelErrorNotifier.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelService.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/package-info.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelRecoveryService.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelServiceRestAdapter.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelRecoveryServiceRestAdapter.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelServiceConstants.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/test/resources/jetty-logging.properties">
+</file>
+</checkstyle>

@@ -1,0 +1,7 @@
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller/src/main/java/io/joynr/accesscontrol/global/GlobalDomainAccessControllerProviderImpl.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller/src/main/java/io/joynr/accesscontrol/global/GlobalDomainRoleControllerProviderImpl.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller/src/main/java/io/joynr/accesscontrol/global/GlobalDomainAccessStoreAdmin.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller/src/main/java/io/joynr/accesscontrol/global/GlobalDomainAccessControllerModule.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller/src/main/java/io/joynr/accesscontrol/global/GlobalDomainAccessStoreAdminEhCache.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller/src/main/java/io/joynr/accesscontrol/global/GlobalDomainAccessControllerLauncher.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller/src/main/java/io/joynr/accesscontrol/global/GlobalDomainAccessControlListEditorProviderImpl.java

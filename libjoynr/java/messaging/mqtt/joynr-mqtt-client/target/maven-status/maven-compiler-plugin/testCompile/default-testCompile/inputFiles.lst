@@ -1,0 +1,6 @@
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/test/java/io/joynr/messaging/mqtt/paho/client/MqttPahoClientTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/test/java/io/joynr/messaging/mqtt/MqttMessagingStubTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/test/java/io/joynr/messaging/mqtt/DefaultMqttClientIdProviderTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/test/java/io/joynr/messaging/mqtt/DefaultMqttTopicPrefixProviderTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/test/java/io/joynr/messaging/mqtt/SharedSubscriptionsMqttMessagingSkeletonTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/test/java/io/joynr/messaging/mqtt/MqttMessagingSkeletonTest.java

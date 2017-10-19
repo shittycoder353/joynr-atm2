@@ -1,0 +1,5 @@
+io/joynr/logging/DistributedLoggingManager.class
+io/joynr/logging/DistributedLoggingManager$1.class
+io/joynr/logging/DistributedLoggingAppender.class
+io/joynr/logging/DistributedLoggingAppender$DistributedLoggingManagerFactory.class
+io/joynr/logging/DistributedLoggingAppender$FactoryData.class

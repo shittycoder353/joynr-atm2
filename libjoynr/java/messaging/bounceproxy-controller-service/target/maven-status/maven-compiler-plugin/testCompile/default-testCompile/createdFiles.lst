@@ -1,0 +1,7 @@
+io/joynr/messaging/service/BounceProxyMigrationTest.class
+io/joynr/messaging/service/BounceProxyInstanceLifeCycleTest.class
+io/joynr/messaging/service/BounceProxyInstanceLifeCycleTest$1.class
+io/joynr/messaging/service/BounceProxyMigrationTest$1.class
+io/joynr/messaging/service/BounceProxyInstanceLifeCycleTest$MeasureBuilder.class
+io/joynr/messaging/info/PerformanceMeasuresTest.class
+io/joynr/messaging/info/BounceProxyStatusTest.class

@@ -1,0 +1,5 @@
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/test/java/io/joynr/messaging/service/ChannelSetUpTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/test/java/io/joynr/messaging/service/ChannelRecoveryTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/test/java/io/joynr/messaging/info/ChannelTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/test/java/io/joynr/messaging/info/BounceProxyInformationTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/test/java/io/joynr/messaging/service/AbstractChannelSetUpTest.java

@@ -1,0 +1,12 @@
+io/joynr/messaging/bounceproxy/service/AbstractMessagingService.class
+io/joynr/messaging/bounceproxy/BounceProxyBroadcaster.class
+io/joynr/messaging/bounceproxy/filter/ExpirationFilter.class
+io/joynr/messaging/bounceproxy/modules/AtmosphereModule$1.class
+io/joynr/messaging/bounceproxy/filter/MessageSerializationFilter.class
+io/joynr/messaging/bounceproxy/filter/CharacterEncodingFilter.class
+io/joynr/messaging/bounceproxy/modules/AtmosphereModule.class
+io/joynr/messaging/bounceproxy/service/DefaultBounceProxyChannelServiceImpl.class
+io/joynr/messaging/bounceproxy/modules/DefaultBounceProxyModule.class
+io/joynr/messaging/bounceproxy/filter/CorsFilter.class
+io/joynr/messaging/bounceproxy/LongPollingMessagingDelegate.class
+io/joynr/messaging/bounceproxy/modules/AbstractBounceProxyJerseyModule.class

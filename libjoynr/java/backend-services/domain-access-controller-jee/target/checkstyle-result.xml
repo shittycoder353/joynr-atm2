@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/MasterRegistrationControlEntryManager.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/OwnerAccessControlEntryManager.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/DomainRoleEntryManager.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/persistence/DomainRoleEntryEntity.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/persistence/MasterRegistrationControlEntryEntity.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/persistence/MasterAccessControlEntryEntity.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/persistence/OwnerAccessControlEntryEntity.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/persistence/ControlEntryType.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/persistence/OwnerRegistrationControlEntryEntity.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/GlobalDomainAccessControlListEditorBean.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/CreateOrUpdateResult.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/JoynrConfigurationProvider.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/MasterAccessControlEntryManager.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/EntityManagerProducer.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/GlobalDomainRoleControllerBean.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/GlobalDomainAccessControllerBean.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/GlobalDomainAccessControllerLocal.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-jee/src/main/java/io/joynr/accesscontrol/global/jee/OwnerRegistrationControlEntryManager.java">
+</file>
+</checkstyle>

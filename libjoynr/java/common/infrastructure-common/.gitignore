@@ -1,0 +1,12 @@
+derby.log
+target
+.classpath
+.project
+.settings
+testdb
+gen
+bin
+src/main/generated*
+logs
+/target
+/joynr.properties

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller/src/main/java/io/joynr/accesscontrol/global/GlobalDomainAccessControllerProviderImpl.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller/src/main/java/io/joynr/accesscontrol/global/GlobalDomainAccessControlListEditorProviderImpl.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller/src/main/java/io/joynr/accesscontrol/global/GlobalDomainAccessStoreAdmin.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller/src/main/java/io/joynr/accesscontrol/global/GlobalDomainAccessStoreAdminEhCache.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller/src/main/java/io/joynr/accesscontrol/global/GlobalDomainAccessControllerLauncher.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller/src/main/java/io/joynr/accesscontrol/global/GlobalDomainAccessControllerModule.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller/src/main/java/io/joynr/accesscontrol/global/GlobalDomainRoleControllerProviderImpl.java">
+</file>
+</checkstyle>

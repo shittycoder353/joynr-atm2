@@ -1,0 +1,8 @@
+io/joynr/accesscontrol/global/jee/DomainRoleEntryManagerTest.class
+io/joynr/accesscontrol/global/jee/OwnerRegistrationControlEntryManagerTest.class
+io/joynr/accesscontrol/global/jee/GlobalDomainAccessControlListEditorBeanTest.class
+io/joynr/accesscontrol/global/jee/MasterRegistrationControlEntryManagerTest.class
+io/joynr/accesscontrol/global/jee/MasterAccessControlEntryManagerTest.class
+io/joynr/accesscontrol/global/jee/GlobalDomainRoleControllerBeanTest.class
+io/joynr/accesscontrol/global/jee/GlobalDomainAccessControllerBeanTest.class
+io/joynr/accesscontrol/global/jee/OwnerAccessControlEntryManagerTest.class

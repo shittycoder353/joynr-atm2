@@ -1,0 +1,15 @@
+io/joynr/messaging/bounceproxy/monitoring/MonitoringServiceClientTest$1.class
+io/joynr/messaging/bounceproxy/monitoring/MockitoTestUtils.class
+io/joynr/messaging/bounceproxy/monitoring/MonitoringServiceClientTest.class
+io/joynr/messaging/bounceproxy/monitoring/MonitoringServiceClientTest$IsAnyStartupHttpRequest.class
+io/joynr/messaging/bounceproxy/monitoring/MonitoringServiceClientTest$IsAnyShutdownHttpRequest.class
+io/joynr/messaging/bounceproxy/monitoring/PerformanceReporterTest.class
+io/joynr/messaging/bounceproxy/monitoring/PerformanceReporterTest$2.class
+io/joynr/messaging/bounceproxy/monitoring/BounceProxyStartupReporterTest$1.class
+io/joynr/messaging/bounceproxy/monitoring/BounceProxyStartupReporterTest.class
+io/joynr/messaging/bounceproxy/monitoring/MockitoTestUtils$IsAnyPerformanceHttpRequest.class
+io/joynr/messaging/bounceproxy/ControlledBounceProxyUrlTest.class
+io/joynr/messaging/bounceproxy/monitoring/PerformanceReporterTest$1.class
+io/joynr/messaging/bounceproxy/runtime/BounceProxySystemPropertyLoaderTest.class
+io/joynr/messaging/bounceproxy/monitoring/MockitoTestUtils$1.class
+io/joynr/messaging/bounceproxy/monitoring/PerformanceReporterTest$Clock.class

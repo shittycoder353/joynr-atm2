@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/DefaultMqttClientIdProvider.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/MqttMulticastAddressCalculator.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/MqttClientFactory.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/paho/client/MqttPahoModule.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/paho/client/MqttPahoClient.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/paho/client/MqttPahoClientFactory.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/SharedSubscriptionsMqttMessagingSkeleton.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/MqttClientIdProvider.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/MqttMessagingStub.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/MqttMessagingStubFactory.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/IMqttMessagingSkeleton.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/MqttModule.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/MqttMessagingSkeleton.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/MqttReplyToAddressFactory.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/MqttMessagingSkeletonProvider.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/MqttTopicPrefixProvider.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/JoynrMqttClient.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/DefaultMqttTopicPrefixProvider.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/main/java/io/joynr/messaging/mqtt/MqttGlobalAddressFactory.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/mqtt/joynr-mqtt-client/src/test/resources/log4j.properties">
+</file>
+</checkstyle>

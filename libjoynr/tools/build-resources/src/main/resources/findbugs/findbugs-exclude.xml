@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  #%L
+  %%
+  Copyright (C) 2011 - 2017 BMW Car IT GmbH
+  %%
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+       http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  #L%
+  -->
+
+<FindBugsFilter>
+	<Match>
+		<!-- This method is enhanced (added to bytecode) by OpenJPA. Known issue since 2009-->
+		<Class name="~io\.joynr\..*\.entities\..*Entity"/>
+		<Method name="pcIsDetached" />
+		<Bug pattern="NP_BOOLEAN_RETURN_NULL"/>
+	</Match>
+	<Match>
+		<Class name="~.*\.R\$.*"/>
+		<Bug code="Nm"/>
+	</Match>
+	<!-- Removes all Null-Pointer warnings from demo applications code: -->
+	<Match>
+		<Package name="~.*\.demoApplications.*" />
+		<Bug code="NP"/>
+	</Match>
+	<!-- Nm: Class is not derived from an Exception, even though it is named as such -->
+	<Match>
+		<Class name="joynr.system.JoynrLoggedException" />
+		<Bug pattern="NM_CLASS_NOT_EXCEPTION"/>
+	</Match>
+	<!-- remove all null pointer warnings from tests -->
+	<Match>
+		<Class name="~.*\.*Tests" />
+		<Bug code="NP" /> 
+	</Match>
+	<Match>
+		<Class name="~.*\.*Test" />
+		<Bug code="NP" />
+	</Match>
+</FindBugsFilter>

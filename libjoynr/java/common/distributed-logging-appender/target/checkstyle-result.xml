@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/common/distributed-logging-appender/src/main/java/io/joynr/logging/DistributedLoggingManager.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/common/distributed-logging-appender/src/main/java/io/joynr/logging/DistributedLoggingAppender.java">
+</file>
+</checkstyle>

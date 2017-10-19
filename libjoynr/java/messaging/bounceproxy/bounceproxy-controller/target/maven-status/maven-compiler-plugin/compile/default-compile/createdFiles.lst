@@ -1,0 +1,12 @@
+io/joynr/messaging/bounceproxy/controller/runtime/AbstractBounceProxyControllerServletConfig$1.class
+io/joynr/messaging/bounceproxy/controller/exception/JoynrProtocolException.class
+io/joynr/messaging/bounceproxy/controller/BounceProxyControllerPropertyKeys.class
+io/joynr/messaging/bounceproxy/controller/runtime/AbstractBounceProxyControllerServletConfig.class
+io/joynr/messaging/bounceproxy/controller/ChannelServiceImpl.class
+io/joynr/messaging/bounceproxy/controller/strategy/RoundRobinAssignmentStrategy.class
+io/joynr/messaging/bounceproxy/controller/RemoteBounceProxyFacade.class
+io/joynr/messaging/bounceproxy/controller/MonitoringServiceImpl.class
+io/joynr/messaging/bounceproxy/controller/util/ChannelUrlUtil.class
+io/joynr/messaging/bounceproxy/controller/strategy/RoundRobinAssignmentStrategy$1.class
+io/joynr/messaging/bounceproxy/controller/strategy/ChannelAssignmentStrategy.class
+io/joynr/messaging/bounceproxy/controller/BounceProxyControllerModule.class

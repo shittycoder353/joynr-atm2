@@ -1,0 +1,154 @@
+/*
+ * #%L
+ * %%
+ * Copyright (C) 2011 - 2017 BMW Car IT GmbH
+ * %%
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * #L%
+ */
+package types
+
+typeCollection {
+
+	<** @description: a version information **>
+	struct Version {
+		<** @description: the major version id **>
+		Int32 majorVersion
+		<** @description: the minor version id **>
+		Int32 minorVersion
+	}
+
+	<** @description: a custom parameter consisting of a name and a value **>
+	struct CustomParameter {
+		<** @description: the name of the custom parameter **>
+		String name
+		<** @description: the value of the custom parameter **>
+		String value
+	}
+
+	<** @description: the scope in which the provider is registered **>
+	enumeration ProviderScope{
+		<** @description: indicates that the provider is for use with the local and global cluster
+			controller
+		**>
+		GLOBAL
+		<** @description: indicates that the provider is only for use with the local cluster
+			controller
+		**>
+		LOCAL
+	}
+
+	<** @description: the provider quality of service settings **>
+	struct ProviderQos {
+		<**
+			@description: the list of Provider-Specific and InterfaceSpecific
+				QoS Parameters
+		**>
+		CustomParameter[] customParameters
+
+		/*
+		 * the following QosParameters are joyn-internal, and
+		 * need to be implemented by every provider
+		 */
+
+		<**
+			@description: the priority value of the provider used for discovery
+		**>
+		Int64 priority
+
+		<**
+			@description: the scope of the provider (e.g. if it is to be used only
+			with the local cluster controller)
+		**>
+		ProviderScope scope
+
+		<**
+			@description: true, if the provider supports onChangeSubscriptions,
+			false otherwise
+		**>
+		Boolean supportsOnChangeSubscriptions
+	}
+
+	<** @description: Enumeration specifying the discovery scope choices **>
+	enumeration DiscoveryScope	{
+		<** @description: Consider only entries from local cache **>
+		LOCAL_ONLY
+		<** @description: Consider only entries from local cache, in no results are found, query
+			global cache as well
+		**>
+		LOCAL_THEN_GLOBAL
+		<** @description: Consider both local and global entries **>
+		LOCAL_AND_GLOBAL
+		<** @description: Consider only global entries **>
+		GLOBAL_ONLY
+	}
+
+	<** @description: Discovery quality of service settings **>
+	struct DiscoveryQos {
+		<** @description: The maximum age of a cached entry in milliseconds **>
+		Int64 cacheMaxAge
+		<** @description: Discovery TTL **>
+		Int64 discoveryTimeout
+		<** @description: The discovery scope **>
+		DiscoveryScope discoveryScope
+		<** @description: True, if the provider is required to support the OnChange publication **>
+		Boolean providerMustSupportOnChange
+	}
+
+	<**
+		@description: Stores information about a provider instance and is used to communicate
+		capabilities between a cluster controller and a lib-joynr instance.
+	**>
+	struct DiscoveryEntry polymorphic {
+		<** @description: semantic version information **>
+		Version providerVersion
+		<** @description: the domain to register the provider with **>
+		String domain
+		<** @description: the name of the provider interface **>
+		String interfaceName
+		<** @description: the participant ID of the provider **>
+		String participantId
+		<** @description: the qos of the provider **>
+		ProviderQos qos
+		<** @description: the date in millis since epoch when the source for this provider last
+			contacted the directory **>
+		Int64 lastSeenDateMs
+		<** @description: the date in millis since epoch when this entry can be purged from the
+			directory and caches **>
+		Int64 expiryDateMs
+		<** @description: the ID of the public key to be used to encrypt messages to
+		this provider **>
+		String publicKeyId
+	}
+
+	<**
+		@description: GlobalDiscoveryEntry stores information about a provider instance and extends
+			DiscoveryEntry by adding transport middleware specific address information.
+			GlobalDiscoveryEntry objects are used to register a new provider instance with the backend.
+			In addition, objects of GlobalDiscoveryEntry will be returned by the backend during the
+			arbitration process in order to select a suitable provider for a proxy.
+		@see: DiscoveryEntry
+	**>
+	struct GlobalDiscoveryEntry extends DiscoveryEntry {
+		<** @description: the serialized transport-middleware-specific address where the provider can
+			be reached. The address is a subclass of <code>Address</code> and is stored as a JSON string.
+		**>
+		String address
+	}
+
+	<** @description: Used for lookups between libjoynr and a cluster controller. Contains additional information **>
+	struct DiscoveryEntryWithMetaInfo extends DiscoveryEntry {
+		<** @description: Indicates whether a provider is registered at the local cluster controller **>
+		Boolean isLocal
+	}
+}

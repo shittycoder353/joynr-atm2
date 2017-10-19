@@ -1,0 +1,10 @@
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy-controller-service/src/main/java/io/joynr/messaging/service/MonitoringServiceRestAdapter.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy-controller-service/src/main/java/io/joynr/messaging/service/MigrationServiceRestAdapter.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy-controller-service/src/main/java/io/joynr/messaging/service/MigrationService.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy-controller-service/src/main/java/io/joynr/messaging/info/BounceProxyStatus.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy-controller-service/src/main/java/io/joynr/messaging/info/BounceProxyStatusInformation.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy-controller-service/src/main/java/io/joynr/messaging/service/BounceProxyStatusParam.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy-controller-service/src/main/java/io/joynr/messaging/info/package-info.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy-controller-service/src/main/java/io/joynr/messaging/service/package-info.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy-controller-service/src/main/java/io/joynr/messaging/service/MonitoringService.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy-controller-service/src/main/java/io/joynr/messaging/info/PerformanceMeasures.java

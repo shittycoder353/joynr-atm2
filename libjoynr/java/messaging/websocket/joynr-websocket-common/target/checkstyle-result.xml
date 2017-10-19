@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-common/src/main/java/io/joynr/messaging/websocket/IWebSocketMessagingSkeleton.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-common/src/main/java/io/joynr/messaging/websocket/WebsocketModule.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-common/src/main/java/io/joynr/messaging/websocket/WebSocketMulticastAddressCalculator.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-common/src/main/java/io/joynr/messaging/websocket/WebSocketMessagingStub.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-common/src/main/java/io/joynr/messaging/websocket/JoynrWebSocketEndpoint.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-common/src/main/java/io/joynr/messaging/websocket/WebSocketEndpointFactory.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-common/src/main/java/io/joynr/messaging/websocket/WebSocketMessagingSkeleton.java">
+</file>
+</checkstyle>

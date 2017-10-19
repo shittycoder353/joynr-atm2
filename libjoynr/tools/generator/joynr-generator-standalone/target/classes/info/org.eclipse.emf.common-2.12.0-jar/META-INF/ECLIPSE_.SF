@@ -1,0 +1,777 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: Ew4U+JSCONoAlcK9Lsl7eYNuKiQ=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: +RH9OWyDwrWy8RMSpfhwFjiOnwY=
+
+Name: org/eclipse/emf/common/util/BasicEMap.class
+SHA1-Digest: MvDBTALDqaQ5KrYawz2sbbfGua4=
+
+Name: about.ini
+SHA1-Digest: gVRQg+K250UBanfZOJGfGOsoncw=
+
+Name: org/eclipse/emf/common/notify/impl/BasicNotifierImpl$EObservable
+ AdapterList$Listener.class
+SHA1-Digest: gwYMeV0d1+Yd6lVTAOjVybP8l/E=
+
+Name: org/eclipse/emf/common/util/BasicEMap$DelegatingMap$1.class
+SHA1-Digest: BAxOrBYzF5rEg1I+rVpwxXxvYeI=
+
+Name: org/eclipse/emf/common/command/AbstractCommand$NonDirtying.class
+SHA1-Digest: VUxOmvXxZjpd+vOTlFRe9gT2Tzo=
+
+Name: org/eclipse/emf/common/util/BasicMonitor$Printing.class
+SHA1-Digest: gmV+/ah0wI5M8bjvts6ISEaPPck=
+
+Name: org/eclipse/emf/common/util/ECollections$EmptyUnmodifiableEList.
+ class
+SHA1-Digest: izWf+BYGaTxHIQ3W5hvFykg4yYE=
+
+Name: org/eclipse/emf/common/util/BasicEList.class
+SHA1-Digest: Ma2D/PjuasH4N+nHW8/RFe81ZSM=
+
+Name: org/eclipse/emf/common/util/Reflect$Helper.class
+SHA1-Digest: JksKRLeALJtf0wCJhaV8SCPAZvw=
+
+Name: org/eclipse/emf/common/notify/impl/AdapterFactoryImpl.class
+SHA1-Digest: Hj5a1IUy70EKqRdQehkUatiAJuw=
+
+Name: org/eclipse/emf/common/archive/ArchiveURLConnection$1.class
+SHA1-Digest: 23wXIrtSKHgvp6wF2cuKqI7Jqio=
+
+Name: org/eclipse/emf/common/util/CommonUtil$StringPool$AccessUnitBase
+ .class
+SHA1-Digest: CLizJQa9PBauKl5I7/wQsR9K4xc=
+
+Name: org/eclipse/emf/common/util/BasicEMap$2.class
+SHA1-Digest: 9Q+FGFws1d8EAKSglAJsZ8PeF5Y=
+
+Name: org/eclipse/emf/common/util/AbstractEList$NonResolvingEIterator.
+ class
+SHA1-Digest: /wO3TFv/211NpOPEHiUYd5voP9Y=
+
+Name: org/eclipse/emf/common/util/BasicEMap$DelegatingMap$1$1.class
+SHA1-Digest: 3uEha51iouwwPWNqR2OGhXYXVsg=
+
+Name: org/eclipse/emf/common/util/URI$URIPool$URIPoolAccessUnitBase$1.
+ class
+SHA1-Digest: +BrTX3aLIeH10bWBAcTgopiG5tQ=
+
+Name: org/eclipse/emf/common/util/URI$Hierarchical.class
+SHA1-Digest: uxUjeEEhiolmdlPL7iQ1jbH/Ms0=
+
+Name: org/eclipse/emf/common/util/WeakInterningHashSet$SelfCleaningEnt
+ ry.class
+SHA1-Digest: fE8FdK4F5aGXzB9owoGfU0GHLWQ=
+
+Name: org/eclipse/emf/common/util/URI$Fragment.class
+SHA1-Digest: oucLvsyzvUeKPietXFyGqP7VmYs=
+
+Name: org/eclipse/emf/common/util/URI$URIPool$URIComponentsAccessUnit$
+ Queue.class
+SHA1-Digest: PwVbKr3vruBTYsRwtQcOVJi2erI=
+
+Name: org/eclipse/emf/common/util/ResourceLocator.class
+SHA1-Digest: CkGIIXmHMLqGDZq078A3ew9I7N4=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Segm
+ entsAndSegmentAccessUnit.class
+SHA1-Digest: 4K4rF83DHgZClaKVizRBpU6pdyk=
+
+Name: org/eclipse/emf/common/util/Pool$AccessUnit.class
+SHA1-Digest: W2EOQqbDWN7mttFZjGj22BF/WRs=
+
+Name: org/eclipse/emf/common/util/DelegatingEList$NonResolvingEListIte
+ rator.class
+SHA1-Digest: KiNyAZYfCgZ/+bOZsTx9URqpwkg=
+
+Name: org/eclipse/emf/common/notify/impl/AdapterImpl.class
+SHA1-Digest: SkzNXQKUfOFgVdzDXmZhUq9f/Ak=
+
+Name: org/eclipse/emf/common/util/BasicEMap$Entry.class
+SHA1-Digest: F4MbppXWZ4s+9l96Rppw4vhuWkw=
+
+Name: org/eclipse/emf/common/util/BasicDiagnostic.class
+SHA1-Digest: BtRGG+r4vi6QgXNJYdkge78H3J4=
+
+Name: org/eclipse/emf/common/package.html
+SHA1-Digest: m0Nj99xHjr/n7ZvmRE2rx7GUKKc=
+
+Name: about.properties
+SHA1-Digest: 6d98Sgtt0KyPWt5aFFe4ctkj4Jw=
+
+Name: org/eclipse/emf/common/EMFPlugin$InternalEclipsePlugin.class
+SHA1-Digest: HLnsQt0z0mGMiIS+dXZtmjeD0qI=
+
+Name: org/eclipse/emf/common/util/ECollections$2.class
+SHA1-Digest: 5XXrEjt8yKFBkheKF95M07A4Jxg=
+
+Name: org/eclipse/emf/common/util/CommonUtil$StringPool$CharSequenceAc
+ cessUnit.class
+SHA1-Digest: gF06PUqdWbfT4FAYClh+ENP7txE=
+
+Name: org/eclipse/emf/common/util/ECollections$UnmodifiableEList$1.cla
+ ss
+SHA1-Digest: IZT8Z3a1fwhJKf1Z5ivwQPW66eM=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Subs
+ egmentsAndSubsegmentsAccessUnit.class
+SHA1-Digest: +rf8Omb5xHl8sZtw2BrQnsh8fp8=
+
+Name: org/eclipse/emf/common/EMFPlugin$OSGiDelegatingBundleActivator.c
+ lass
+SHA1-Digest: wlVtkNdHD2xMWRThTTRZ004IxRc=
+
+Name: org/eclipse/emf/common/CommonPlugin$Implementation.class
+SHA1-Digest: FRccloQ/gDpNblItcFtIWoVho84=
+
+Name: org/eclipse/emf/common/util/ECollections$2$1.class
+SHA1-Digest: k6hUoQlpviQyhuqlQ+EvRYZgUfY=
+
+Name: org/eclipse/emf/common/util/ECollections$EmptyUnmodifiableEMap.c
+ lass
+SHA1-Digest: trKK5LFKLHHYDTpKhKg316CIBPg=
+
+Name: org/eclipse/emf/common/util/Pool$AccessUnit$Queue$1.class
+SHA1-Digest: GVEeNPyzMWsiPxry7Xh1e9Uwivg=
+
+Name: org/eclipse/emf/common/util/ArrayDelegatingEList$EIterator.class
+SHA1-Digest: gQKT/OAJi4CrEX+QZ/7OwNKmrQo=
+
+Name: org/eclipse/emf/common/command/AbstractCommand.class
+SHA1-Digest: w/U4jrjilwka09LLmVnrniX2BmY=
+
+Name: org/eclipse/emf/common/command/BasicCommandStack.class
+SHA1-Digest: ORqTNb3tGTiZZ0EAtLHyHSHP17w=
+
+Name: org/eclipse/emf/common/util/URI$URIPool$PlatformAccessUnit$Queue
+ .class
+SHA1-Digest: vzw/0FH9bPImBPLE3XVyhrqpomM=
+
+Name: org/eclipse/emf/common/util/Monitor.class
+SHA1-Digest: eU7NBI5udqqK9VL2d3YtwpIWUtM=
+
+Name: org/eclipse/emf/common/command/AbstractCommand$1ChainedCompoundC
+ ommand.class
+SHA1-Digest: vk1cMAi3gdvw27mjld3pkr122Fs=
+
+Name: org/eclipse/emf/common/command/CommandStackListener.class
+SHA1-Digest: dbyIENF7RefP365G/aOBwGFONIw=
+
+Name: org/eclipse/emf/common/util/WeakInterningHashSet$1.class
+SHA1-Digest: dkWk7S/Xj3aUHAvqdahxvO1zgPg=
+
+Name: org/eclipse/emf/common/archive/package.html
+SHA1-Digest: zAfk07kIw3J3wJ+W9Vjgq2PhZj4=
+
+Name: org/eclipse/emf/common/util/DiagnosticException.class
+SHA1-Digest: 542wG0N6xjenMSASEpxSqKmnyng=
+
+Name: org/eclipse/emf/common/util/URI.class
+SHA1-Digest: siAP5YKisfR0xD0HgdC9MwAiayM=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Segm
+ entsAndSubsegmentAccessUnit$Queue.class
+SHA1-Digest: r4uUYAIRdDP5OtruUk1DjEs52eU=
+
+Name: org/eclipse/emf/common/command/AbortExecutionException.class
+SHA1-Digest: bJjojk59usyZaiXD/7eVLWYpZ6M=
+
+Name: org/eclipse/emf/common/command/UnexecutableCommand.class
+SHA1-Digest: T7sUx6fFaW113mmY0oyQU3kDT7Y=
+
+Name: org/eclipse/emf/common/util/URI$Opaque.class
+SHA1-Digest: bTNaB4Q60eleMyoBQkGQBaKS7ks=
+
+Name: org/eclipse/emf/common/util/DelegatingEList$NonResolvingEIterato
+ r.class
+SHA1-Digest: dE9f6DN7m5dMNUf8h6Eu7glrWHk=
+
+Name: org/eclipse/emf/common/util/BasicMonitor$Delegating.class
+SHA1-Digest: t8zdufl9sBIeUAVS3kgx7scYkqA=
+
+Name: org/eclipse/emf/common/command/package.html
+SHA1-Digest: oC5hBE5IfORhCDN0oWrSAsGyTTg=
+
+Name: org/eclipse/emf/common/util/BasicEList$EIterator.class
+SHA1-Digest: 64qRbSNKFD5BqHBer3JSTmHKlAI=
+
+Name: org/eclipse/emf/common/notify/impl/package.html
+SHA1-Digest: IXc3U0s6q9oS/khjT2MooZTJAvM=
+
+Name: org/eclipse/emf/common/notify/impl/NotificationImpl.class
+SHA1-Digest: QIRSqstapKqaLx+mybUpIG6gilU=
+
+Name: org/eclipse/emf/common/util/BasicEList$NonResolvingEIterator.cla
+ ss
+SHA1-Digest: saqsUhzXZZyrvHtymjJCM39IALk=
+
+Name: org/eclipse/emf/common/util/DelegatingResourceLocator.class
+SHA1-Digest: 1pgXEEj+OQ62YlVXwT3sj3i0lhk=
+
+Name: org/eclipse/emf/common/util/BasicDiagnostic$EclipseHelper.class
+SHA1-Digest: IKN6vLtvjQZQmwyzRCb5v0TNolE=
+
+Name: org/eclipse/emf/common/CommonPlugin.class
+SHA1-Digest: x6ECwrY3jkrc7rDNksey9IkgVX0=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$UnmodifiableArraySub
+ List.class
+SHA1-Digest: jYmfuj6blvLAnFjLf4hYMzUAjJ4=
+
+Name: org/eclipse/emf/common/util/BasicEList$UnmodifiableEList.class
+SHA1-Digest: DbrWzL4TdMfYAe6q/4lLSwff4x8=
+
+Name: org/eclipse/emf/common/util/BasicEMap$BasicEMapIterator.class
+SHA1-Digest: TNNPBWBjB6dEkDNF0wiBltqfVag=
+
+Name: org/eclipse/emf/common/util/SegmentSequence.class
+SHA1-Digest: si//37AEac9q6V784Vr0Rpm+S34=
+
+Name: org/eclipse/emf/common/util/BasicEMap$4.class
+SHA1-Digest: sBABeBmlAipAjigzjHLM+nNGce8=
+
+Name: org/eclipse/emf/common/util/CommonUtil$StringPool$JavaInterningA
+ ccessUnit.class
+SHA1-Digest: I4EsRsKLOg+F5uFH2ovgFxkpIIw=
+
+Name: org/eclipse/emf/common/notify/impl/SingletonAdapterImpl.class
+SHA1-Digest: gVFowZWmJjkrBREKZO5YeNM3u1s=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Segm
+ entsAndSubsegmentAccessUnit.class
+SHA1-Digest: hjfr32uSI+okBEn3V84HCMsP130=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Stri
+ ngAccessUnit.class
+SHA1-Digest: OmUQDDKq7QxKCdpDDGCG5rx+e3c=
+
+Name: org/eclipse/emf/common/util/CommonUtil$StringPool.class
+SHA1-Digest: 4s6XpDeC/0H5zIg21gBj5rKreOo=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$SegmentSequencePool$
+ SegmentsAccessUnit.class
+SHA1-Digest: QxISZ3s54PPlLaSIuq6irNS/1Fc=
+
+Name: org/eclipse/emf/common/util/TreeIterator.class
+SHA1-Digest: oqbG2X8HML/ryocd1picYO9fIck=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$SegmentSequencePool$
+ SegmentsAndSegmentsAccessUnit$Queue.class
+SHA1-Digest: 71CPFoACL7lhYFYEcS/UUnRJBOc=
+
+Name: about.mappings
+SHA1-Digest: Fn4sGrZN/OW2atDaYLrmbtRMLnE=
+
+Name: org/eclipse/emf/common/util/BasicMonitor$EclipseDelegating.class
+SHA1-Digest: SIbpjrCBClhzncbd248lHYfCLTA=
+
+Name: org/eclipse/emf/common/util/InterningSet.class
+SHA1-Digest: C8xdfyxbB6xKwIPEn0zV1uszgKo=
+
+Name: org/eclipse/emf/common/util/CommonUtil$StringPool$CharactersAcce
+ ssUnit.class
+SHA1-Digest: In+7BPyza3T8YfFzDK6dhkn0ppQ=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$SegmentSequencePool$
+ SegmentsAndSegmentAccessUnit$Queue.class
+SHA1-Digest: 7jP9RE20DwSE7d/sIfeJrAKzXcQ=
+
+Name: org/eclipse/emf/common/util/ECollections$4.class
+SHA1-Digest: Gu/DdOoSxTeu1AQ9h4pTRZ3zlDE=
+
+Name: org/eclipse/emf/common/util/BasicEMap$DelegatingMap.class
+SHA1-Digest: TpDowPPDj0ZSZh7lbB/bvct8dEQ=
+
+Name: org/eclipse/emf/common/util/BasicMonitor$Delegating$Eclipse.clas
+ s
+SHA1-Digest: r+o/7q4XZasaercpi5VQgW00zWU=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Segm
+ entsAccessUnit$Queue.class
+SHA1-Digest: UGFiGkjb5kScocpdgMH0HESJOL4=
+
+Name: org/eclipse/emf/common/util/AbstractEnumerator.class
+SHA1-Digest: DesAoZD9dkGzfDZLjG9WW06olmM=
+
+Name: org/eclipse/emf/common/util/WrappedException.class
+SHA1-Digest: 6agcYKhez1swRFICBC4lup7kfKA=
+
+Name: org/eclipse/emf/common/util/CommonUtil$StringPool$CharSequenceAc
+ cessUnit$Queue.class
+SHA1-Digest: 5j+Qbi+9vsuq4BSCTdcAMTzurE8=
+
+Name: org/eclipse/emf/common/util/Pool$PoolEntry.class
+SHA1-Digest: R5rWTXrsqHwg02OZp8+kWCtXDis=
+
+Name: org/eclipse/emf/common/util/Logger.class
+SHA1-Digest: j9UgGKEqonqsC7+J7GmMQsjCIMU=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Segm
+ entsAndSegmentCountAccessUnit.class
+SHA1-Digest: hQs0Z9x2g6dHqcEmthOiiDhj4JM=
+
+Name: org/eclipse/emf/common/notify/impl/BasicNotifierImpl$EObservable
+ AdapterList.class
+SHA1-Digest: zPXeV1t1Dpoymboq2ruspd4jKHI=
+
+Name: org/eclipse/emf/common/util/AbstractEList$EListIterator.class
+SHA1-Digest: 9f7OkdMpP2jd2o2QXp/Dosh0X4w=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Subs
+ egmentsAndSubsegmentsAccessUnit$Queue.class
+SHA1-Digest: 1S6CLEn8Y7MR3sAe/xkDK7DFt/I=
+
+Name: org/eclipse/emf/common/notify/impl/BasicNotifierImpl$EAdapterLis
+ t.class
+SHA1-Digest: zTCK2raBRXuAxyGSyGJJx4uudXo=
+
+Name: plugin.properties
+SHA1-Digest: 9Jk3cokq6VjudROjbZBbs/3/63I=
+
+Name: org/eclipse/emf/common/util/UniqueEList.class
+SHA1-Digest: voPjswKtkHuopjV4UyI5SGfrIL4=
+
+Name: org/eclipse/emf/common/util/BasicEMap$1.class
+SHA1-Digest: XTWPEruCSDTKf8A7cHn1VTWGTxw=
+
+Name: org/eclipse/emf/common/util/BasicEMap$BasicEMapValueIterator.cla
+ ss
+SHA1-Digest: r2fDfQNqBxWYH0+p5mycduZB3P4=
+
+Name: org/eclipse/emf/common/util/CommonUtil$StringPool$StringAccessUn
+ it.class
+SHA1-Digest: 7rer10lFROuuYS5sSI3/MneK/y4=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool.clas
+ s
+SHA1-Digest: SAZOYmZBvZSupdPkx8eKCjftM9Q=
+
+Name: org/eclipse/emf/common/CommonPlugin$Implementation$Activator.cla
+ ss
+SHA1-Digest: kukjgjg4rj1o6f0blNVQPA49vQM=
+
+Name: org/eclipse/emf/common/util/CommonUtil$StringPool$SubstringAcces
+ sUnit.class
+SHA1-Digest: yZK6XYTnCgGQZ8HoTVu6Jt8Bq5Q=
+
+Name: org/eclipse/emf/common/EMFPlugin.class
+SHA1-Digest: j+VRWKZKyk4wG78QczXB2ikDNlY=
+
+Name: org/eclipse/emf/common/util/BasicEMap$DelegatingMap$1$1$1.class
+SHA1-Digest: p03L6hnrWMI55IHfrI8c1EJepMI=
+
+Name: org/eclipse/emf/common/util/CommonUtil$1ReferenceClearingQueuePo
+ llingThread.class
+SHA1-Digest: gFTc5FXA7W4MqJB7C5oliapwxGA=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$SegmentSequencePool$
+ SegmentsAndSegmentAccessUnit.class
+SHA1-Digest: 4Je8GyqRV4bclIBcGZn9LLYAlzw=
+
+Name: org/eclipse/emf/common/notify/Adapter$Internal.class
+SHA1-Digest: f6ZUcu8LZuvmYYTltnaNXBuRgYE=
+
+Name: org/eclipse/emf/common/util/BasicDiagnostic$StatusWrapper.class
+SHA1-Digest: 4mryZQ9R9cMwP4rairPtgf7YdiA=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Segm
+ entsAccessUnit.class
+SHA1-Digest: qCw6QfAG+pRUW+Cq0G5wMKRPrZU=
+
+Name: org/eclipse/emf/common/util/ECollections$1.class
+SHA1-Digest: FBy7NY8XQ5zoHw7KH45c636B39k=
+
+Name: org/eclipse/emf/common/notify/Notifier.class
+SHA1-Digest: xKPRZkzIcrfQc3Y1+OEEPg2nOsA=
+
+Name: org/eclipse/emf/common/util/CommonUtil$StringPool$CharactersAcce
+ ssUnit$Queue.class
+SHA1-Digest: h3gl24prPtpsdIpnchTffSBtqfM=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Segm
+ entsAndSegmentAccessUnit$Queue.class
+SHA1-Digest: 9xCJ5JK4HMKDIoKDQhuTmuD/k/Q=
+
+Name: org/eclipse/emf/common/notify/NotifyingList.class
+SHA1-Digest: kK+XfzP+FUPbvaBdEPotuP195Ng=
+
+Name: org/eclipse/emf/common/util/BasicEMap$BasicEMapKeyIterator.class
+SHA1-Digest: wVbLbwXIWfEfoiN3YhzsFQUiuqE=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Subs
+ tringAccessUnit.class
+SHA1-Digest: qgrJa4Ii5Kba7uRwC2XFmZZLyPw=
+
+Name: org/eclipse/emf/common/util/AbstractEList$EIterator.class
+SHA1-Digest: b3kkXR6NQkBtAwtBKzI3n/wJAcY=
+
+Name: org/eclipse/emf/common/util/ArrayDelegatingEList$NonResolvingELi
+ stIterator.class
+SHA1-Digest: DoUoVlSAdsCnhsTbiO5L9EofJNE=
+
+Name: org/eclipse/emf/common/command/CommandWrapper.class
+SHA1-Digest: 1gqn/8dog23EHMjbjRb86bUUB3Y=
+
+Name: org/eclipse/emf/common/notify/NotificationChain.class
+SHA1-Digest: 9FSoryrKpRK8Es6OFDYM0aKkZKI=
+
+Name: org/eclipse/emf/common/util/URI$URIPool$FileAccessUnit$Queue.cla
+ ss
+SHA1-Digest: WAeXd+5mn280v2EcpXZiaHlWwFE=
+
+Name: org/eclipse/emf/common/command/StrictCompoundCommand.class
+SHA1-Digest: SIUOykVA1QLUSZbcH5H33+3YnaI=
+
+Name: org/eclipse/emf/common/util/AbstractEList.class
+SHA1-Digest: f3hSdioCyEp4F22O2L7JYBFwy28=
+
+Name: org/eclipse/emf/common/util/Diagnostic.class
+SHA1-Digest: sgkhwN5timN6Pi9fJGpWdhAeliE=
+
+Name: org/eclipse/emf/common/notify/impl/NotifyingListImpl$1.class
+SHA1-Digest: 6MwQ82JdWncSpD+FPb6mIocXcfA=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$Builder.class
+SHA1-Digest: dyJVoNNevW9+U+VWbVexpcvicpc=
+
+Name: org/eclipse/emf/common/util/ECollections$UnmodifiableEList.class
+SHA1-Digest: 8RQOajXp//ZrRZ6btWEiOd7fSlk=
+
+Name: org/eclipse/emf/common/util/ECollections$BasicEmptyUnmodifiableE
+ List.class
+SHA1-Digest: Vv6ytDqCt7hO3aFwnvzN7AB+OMY=
+
+Name: org/eclipse/emf/common/util/DelegatingEList$EListIterator.class
+SHA1-Digest: 94z51eGk10hnsF0VlYldVJ+TJiY=
+
+Name: org/eclipse/emf/common/EMFPlugin$EclipsePlugin.class
+SHA1-Digest: VeQBFGsXk17d3fmml6tkz6w7Xnk=
+
+Name: org/eclipse/emf/common/command/IdentityCommand.class
+SHA1-Digest: zedu4iEqMw9QMttUkKynUIOkwPE=
+
+Name: org/eclipse/emf/common/util/BasicEList$EListIterator.class
+SHA1-Digest: VXxUmbWweYKSbJ9FUPR61q77OO8=
+
+Name: org/eclipse/emf/common/util/BasicEMap$View.class
+SHA1-Digest: QjS7T2J5ZcrTEux1a/ngfXRVccs=
+
+Name: org/eclipse/emf/common/util/BasicMonitor$EclipseSubProgress.clas
+ s
+SHA1-Digest: H9fJfEIrtrg6kJLfjOqv0KowNb4=
+
+Name: org/eclipse/emf/common/util/BasicEList$NonResolvingEListIterator
+ .class
+SHA1-Digest: XAN6wjts1jK8pkwXqGfjkLuxp3s=
+
+Name: org/eclipse/emf/common/util/Pool$ExternalRehasher.class
+SHA1-Digest: 8SK8mOyABMxfSggmfxnDvuGZvkY=
+
+Name: org/eclipse/emf/common/util/WeakInterningHashSet$Entry.class
+SHA1-Digest: dlHndk8ftiD6S374it3hnB/Ww9s=
+
+Name: org/eclipse/emf/common/archive/ArchiveURLConnection.class
+SHA1-Digest: fuhNW3tTGmfrVzsHXKF8/V5K9vU=
+
+Name: org/eclipse/emf/common/util/BasicEList$BasicIndexOutOfBoundsExce
+ ption.class
+SHA1-Digest: fM4yfsr235C0N0Py4P3f5LHmqsA=
+
+Name: org/eclipse/emf/common/util/ECollections$UnmodifiableEMap.class
+SHA1-Digest: 2X4VcpnIwsv1oFr5yWTlucDM2vw=
+
+Name: org/eclipse/emf/common/archive/Handler.class
+SHA1-Digest: NxH9+2ssMwqqCPouFydesxvHe8Q=
+
+Name: org/eclipse/emf/common/util/URI$URIPool$URIPoolAccessUnitBase.cl
+ ass
+SHA1-Digest: SQJXzlooT+lUiAxnm7Qs+NuKPM4=
+
+Name: org/eclipse/emf/common/util/Pool$ObjectAccessUnit.class
+SHA1-Digest: fPjTZpkl4xSTWS6SWY7DnhsshLo=
+
+Name: org/eclipse/emf/common/util/URI$URIPool.class
+SHA1-Digest: MGVHNnErqVJABvBSinYdEe7i894=
+
+Name: org/eclipse/emf/common/util/URI$URIPool$FileAccessUnit.class
+SHA1-Digest: 0uodZ+4F3m7KnbxWwGs7XxtPVxc=
+
+Name: org/eclipse/emf/common/archive/ArchiveURLConnection$2.class
+SHA1-Digest: TmNDhC22kh9Ir2I7cTWsp16l8sY=
+
+Name: org/eclipse/emf/common/util/BasicEMap$3.class
+SHA1-Digest: IpitlvTnxQcADOzUiX9VHGYyLT8=
+
+Name: org/eclipse/emf/common/command/Command.class
+SHA1-Digest: zlRII8GyxEqqC6zpR6Gnjq95ZyU=
+
+Name: org/eclipse/emf/common/util/URI$URIPool$URIComponentsAccessUnit.
+ class
+SHA1-Digest: 5EQxmquXjHdXpL55/HNYmtapG1s=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$SegmentSequencePool$
+ StringAccessUnit.class
+SHA1-Digest: z/YFE0073Q/fZf7VgTmTynregUo=
+
+Name: org/eclipse/emf/common/notify/impl/BasicNotifierImpl.class
+SHA1-Digest: MtqagfISQPqHfDEocphy5MFqLlg=
+
+Name: org/eclipse/emf/common/util/DiagnosticChain.class
+SHA1-Digest: aYPNyx4YgybExVU6iyleB9miWsQ=
+
+Name: org/eclipse/emf/common/notify/impl/BasicNotifierImpl$EAdapterLis
+ t$1.class
+SHA1-Digest: vCNEdFsG+HN+DeC3o2YM6H/gY9o=
+
+Name: org/eclipse/emf/common/util/Pool$ObjectAccessUnit$Queue.class
+SHA1-Digest: DfT6e27vhfBQNLFORdE3OeoFpGg=
+
+Name: org/eclipse/emf/common/util/BasicDiagnostic$DiagnosticWrapper.cl
+ ass
+SHA1-Digest: SVfPB0UQ3W7V99k5kKMKYIjxeX0=
+
+Name: org/eclipse/emf/common/util/package.html
+SHA1-Digest: r0WetlA/C6hWUO6WE1Yyz2aPIgQ=
+
+Name: org/eclipse/emf/common/util/CommonUtil$StringPool$JavaInterningA
+ ccessUnit$Queue.class
+SHA1-Digest: s5Lpmnp9cL4ImMqM8CZDCfTwZQQ=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$SegmentSequencePool$
+ StringAccessUnit$Queue.class
+SHA1-Digest: lnlfoNsqAhDHdystTI0znU7blH8=
+
+Name: org/eclipse/emf/common/util/CommonUtil$StringPool$SubstringAcces
+ sUnit$Queue.class
+SHA1-Digest: o2EoPDN33/ez4u10MmJV4TLY3Iw=
+
+Name: org/eclipse/emf/common/util/AbstractTreeIterator.class
+SHA1-Digest: wTz0bgUrmHEDYcQsNf1O/vWMrCY=
+
+Name: org/eclipse/emf/common/command/CompoundCommand.class
+SHA1-Digest: 3LstA0bSOa0Vg858VLbDOr6Wypc=
+
+Name: org/eclipse/emf/common/util/ECollections.class
+SHA1-Digest: KEl62SzLChlRieK0Pne/9tmZATE=
+
+Name: about.html
+SHA1-Digest: p77WoW/tpuGpE+dfbaEuLp+bH/o=
+
+Name: org/eclipse/emf/common/util/DelegatingEList$EIterator.class
+SHA1-Digest: ZGH2CxCWlrunu8RPua4xYqh0jyQ=
+
+Name: org/eclipse/emf/common/util/BasicEMap$EntryImpl.class
+SHA1-Digest: TaruMzBiAti0GiKgs+9UFqkkyLc=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$SegmentSequencePool$
+ SegmentsAccessUnit$Queue.class
+SHA1-Digest: ndWB81EiqY1C7dRN7IRi5kScGKU=
+
+Name: org/eclipse/emf/common/util/BasicEList$FastCompare.class
+SHA1-Digest: QM5f2Ir6BESr2d2BHPOuHfT/zpg=
+
+Name: modeling32.png
+SHA1-Digest: HNz2oYHVqQEUObJQL6sh+Ik2jak=
+
+Name: org/eclipse/emf/common/util/ECollections$3.class
+SHA1-Digest: CIwQCbnEkTYiKbvx/hQaDIIju7Y=
+
+Name: org/eclipse/emf/common/util/ECollections$UnmodifiableEList$2.cla
+ ss
+SHA1-Digest: 7VbZTSNQ3J7VN8OwnGHGoV0OrZ8=
+
+Name: org/eclipse/emf/common/notify/package.html
+SHA1-Digest: Aome5kt67vHwHzr4PZGZdJjNv7E=
+
+Name: org/eclipse/emf/common/util/Pool$AccessUnit$Queue.class
+SHA1-Digest: Hji39RbVH9Xywf/6ZDPdqYc2qYw=
+
+Name: org/eclipse/emf/common/util/Reflect.class
+SHA1-Digest: 0yRKuNPeNu9Z2A6jj9OKs3wCH7M=
+
+Name: org/eclipse/emf/common/notify/Notification.class
+SHA1-Digest: 8kAzUyD5fw+QEUTR1CHr9YKD/xs=
+
+Name: org/eclipse/emf/common/util/Enumerator.class
+SHA1-Digest: UfN/myOqSmiPA6sBSTfh3gJczp4=
+
+Name: org/eclipse/emf/common/util/DelegatingEList.class
+SHA1-Digest: hxuNoxPrZ3ZXxZhqsmhidHkxMQ0=
+
+Name: org/eclipse/emf/common/util/DelegatingEList$UnmodifiableEList.cl
+ ass
+SHA1-Digest: Rv5xsCuX5DIYzpEgKBmuaOvSGVw=
+
+Name: org/eclipse/emf/common/util/URI$LazyFragmentInitializer.class
+SHA1-Digest: 76IN61zMxtTwWvJOGsry+lrUBJ0=
+
+Name: org/eclipse/emf/common/notify/impl/DelegatingNotifyingListImpl$1
+ .class
+SHA1-Digest: PYIOyNP9AyJkvQa07nwVZXVO6D0=
+
+Name: org/eclipse/emf/common/util/CommonUtil.class
+SHA1-Digest: M0F7fmexUv/L8oeX0YMqUopchc4=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$SegmentSequencePool$
+ CachedToString.class
+SHA1-Digest: Y6I+OCtXZ6IFZ0EU/ppV4hIHSO8=
+
+Name: org/eclipse/emf/common/command/CommandStack.class
+SHA1-Digest: VQSM5KwMV5cWHKkO5z/4ekLEsJc=
+
+Name: org/eclipse/emf/common/util/ArrayDelegatingEList$EListIterator.c
+ lass
+SHA1-Digest: 3uyldoICz9n095iV+iCn/iKbRVQ=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Subs
+ tringAccessUnit$Queue.class
+SHA1-Digest: /ZdHGq3ywP3Sfn6Y4CZCFEZAQ30=
+
+Name: org/eclipse/emf/common/notify/Adapter.class
+SHA1-Digest: JQG+HdAl3g9nbkiqHbOmOfugRMQ=
+
+Name: org/eclipse/emf/common/util/Pool.class
+SHA1-Digest: 58dL79Cp/YAbNm9GMqrbO9k+0CE=
+
+Name: org/eclipse/emf/common/util/CommonUtil$StringPool$StringsAccessU
+ nit$Queue.class
+SHA1-Digest: i+10oRfMvMKSVU3YniGkl0iUVFg=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$SegmentSequencePool$
+ AccessUnitBase.class
+SHA1-Digest: VXoGdDLNrp6902WC/03pOWMjwPg=
+
+Name: org/eclipse/emf/common/util/AbstractEnumerator$AbstractEnumerato
+ rExternalizeable.class
+SHA1-Digest: Fhpl6uVPUaUyv2esFYXJ0ywwIOA=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$SegmentSequencePool$
+ SegmentsAndSegmentsAccessUnit.class
+SHA1-Digest: B3adZKIGVxEYqyFaiKqFVBwwkB8=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$SegmentSequencePool.
+ class
+SHA1-Digest: 4VERqW6LXkZiuDBIUUlFcBjVRN0=
+
+Name: org/eclipse/emf/common/util/ArrayDelegatingEList.class
+SHA1-Digest: Vqu7crGw+xRJp8ATW++5PArFeAs=
+
+Name: org/eclipse/emf/common/util/EList.class
+SHA1-Digest: zYurPHVDImzJC8FY7E7AB3Jjxd4=
+
+Name: org/eclipse/emf/common/util/URI$URIPool$StringAccessUnit.class
+SHA1-Digest: IbA0v/61ubgZy13iFPwlNum4+Io=
+
+Name: org/eclipse/emf/common/notify/NotificationWrapper.class
+SHA1-Digest: 74+q01+kvVG1ZiRD5S6LcY9mWlQ=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Stri
+ ngAccessUnit$Queue.class
+SHA1-Digest: rcf789rCDzfJXYdaosk9bIrXZpI=
+
+Name: org/eclipse/emf/common/util/URI$URIPool$StringAccessUnit$Queue.c
+ lass
+SHA1-Digest: gsGBD7QKF+W9lvChoUTszWi7Hq8=
+
+Name: org/eclipse/emf/common/util/UniqueEList$FastCompare.class
+SHA1-Digest: lyhF4N+JhjczqmfcJe6lbA0SlFw=
+
+Name: org/eclipse/emf/common/notify/impl/DelegatingNotifyingListImpl.c
+ lass
+SHA1-Digest: bGRYe4M/ZQpryTl9Yxwr+jT9vBY=
+
+Name: org/eclipse/emf/common/util/CommonUtil$StringPool$StringPoolEntr
+ y.class
+SHA1-Digest: 4BEUi121ekqaV7eS/yaqdR0uIls=
+
+Name: org/eclipse/emf/common/util/BasicMonitor.class
+SHA1-Digest: EDvNcYJSoJ4X4IAJGpyTRAuhCrM=
+
+Name: org/eclipse/emf/common/util/URI$URIPool$PlatformAccessUnit.class
+SHA1-Digest: k9UdjH/7zJ1R30rV/zX3TZt/KMg=
+
+Name: org/eclipse/emf/common/util/CommonUtil$StringPool$StringsAccessU
+ nit.class
+SHA1-Digest: 4YslpHEH/nZuIsvZtXuB8acg+J4=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$UnmodifiableArrayLis
+ t.class
+SHA1-Digest: k3K902o4Ukl7Bw2mcbR+D3MiEkg=
+
+Name: org/eclipse/emf/common/notify/AdapterFactory.class
+SHA1-Digest: /yC0pOBnHdhL5qe7jZR7uDlHtvw=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Segm
+ entsAndSegmentsAccessUnit.class
+SHA1-Digest: o1k+dIxOm9/PSU/ammpTtc8SMkk=
+
+Name: org/eclipse/emf/common/util/EMap$InternalMapView.class
+SHA1-Digest: 4W04vyDTube7yeGqjh9PYlpQbKY=
+
+Name: org/eclipse/emf/common/util/AbstractEList$NonResolvingEListItera
+ tor.class
+SHA1-Digest: fq578IGSMCvcC18PQx6MNbuEGgE=
+
+Name: org/eclipse/emf/common/util/ArrayDelegatingEList$NonResolvingEIt
+ erator.class
+SHA1-Digest: 37oRse497RRPRivoKXG+ojSyNbs=
+
+Name: org/eclipse/emf/common/util/BasicEMap$5.class
+SHA1-Digest: BBCDjCRRVGcYeLpe4w+5sskChcc=
+
+Name: org/eclipse/emf/common/util/WeakInterningHashSet.class
+SHA1-Digest: HLhmWdF/MwOyrfwrpQFE5B8YKUo=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Segm
+ entsAndSegmentCountAccessUnit$Queue.class
+SHA1-Digest: valifK4tpZ2+CrWCAs1smoxOG8o=
+
+Name: org/eclipse/emf/common/notify/impl/NotifyingListImpl.class
+SHA1-Digest: 2JP1K4Zpdp6MRY1mBmJjdfuNW2I=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Segm
+ entsAndSegmentsAccessUnit$Queue.class
+SHA1-Digest: S8vPb6QRBSVzYRECRUQ7j4u78gg=
+
+Name: org/eclipse/emf/common/util/URI$URIPool$CachedToString.class
+SHA1-Digest: ciH2ZFDOlTHVTzHlmHYUmzKCzqI=
+
+Name: org/eclipse/emf/common/util/CommonUtil$StringPool$StringAccessUn
+ it$Queue.class
+SHA1-Digest: CZ1WaLT9ZZXN8LA8V8bTrU3jptY=
+
+Name: org/eclipse/emf/common/util/CommonUtil$StringPool$SelfCleaningSt
+ ringPoolEntry.class
+SHA1-Digest: N8OgnMZF8JjVH2WjZkOwzegK0Dg=
+
+Name: org/eclipse/emf/common/util/SegmentSequence$StringArrayPool$Acce
+ ssUnitBase.class
+SHA1-Digest: kalJ84qf9pYtZ9SZymk46bO3P/c=
+
+Name: org/eclipse/emf/common/EMFPlugin$InternalHelper.class
+SHA1-Digest: YyoADsVvVn8R+E9CxKSFUGMsYMg=
+
+Name: org/eclipse/emf/common/util/EMap.class
+SHA1-Digest: Wha75JXKcCuvqNoBUfkP3MQXw/A=
+
+Name: org/eclipse/emf/common/util/AbstractEList$BasicIndexOutOfBoundsE
+ xception.class
+SHA1-Digest: V0PnGiRB/ASN6cYUsHvBTL7G+yI=
+
+Name: org/eclipse/emf/common/util/ECollections$SynchronizedInterningSe
+ t.class
+SHA1-Digest: TtTklWyNrrzJtQiJisKgfsReqGY=
+
+Name: org/eclipse/emf/common/util/ECollections$BasicEmptyUnmodifiableE
+ List$1.class
+SHA1-Digest: h3Uz44af2YswhBLYL6Jkp1wjZuM=
+
+Name: org/eclipse/emf/common/notify/impl/NotificationChainImpl.class
+SHA1-Digest: Mtot12ourxEZACylJaRFnLMz3Pk=
+
+Name: org/eclipse/emf/common/notify/impl/NotifierImpl.class
+SHA1-Digest: laz6u4xZP5gUdBM8Yxkkv/nT2P8=
+

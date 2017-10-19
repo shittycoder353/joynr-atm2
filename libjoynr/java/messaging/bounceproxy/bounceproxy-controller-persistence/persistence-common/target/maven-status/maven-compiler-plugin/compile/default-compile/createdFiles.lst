@@ -1,0 +1,8 @@
+io/joynr/messaging/bounceproxy/controller/directory/ChannelDirectory.class
+io/joynr/messaging/bounceproxy/controller/directory/AbstractBounceProxyControllerDirectoriesModule.class
+io/joynr/messaging/bounceproxy/controller/directory/inmemory/InMemoryBounceProxyDirectory$1.class
+io/joynr/messaging/bounceproxy/controller/directory/BounceProxyDirectory.class
+io/joynr/messaging/bounceproxy/controller/directory/inmemory/InMemoryBounceProxyDirectory.class
+io/joynr/messaging/bounceproxy/controller/directory/BounceProxyRecord.class
+io/joynr/messaging/bounceproxy/controller/directory/inmemory/InMemoryChannelDirectory.class
+io/joynr/messaging/bounceproxy/controller/directory/inmemory/InMemoryModule.class

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/filter/ExpirationFilter.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/filter/CorsFilter.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/filter/CharacterEncodingFilter.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/filter/MessageSerializationFilter.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/BounceProxyBroadcaster.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/service/package-info.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/service/AbstractMessagingService.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/service/DefaultBounceProxyChannelServiceImpl.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/LongPollingMessagingDelegate.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/modules/package-info.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/modules/AtmosphereModule.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/modules/DefaultBounceProxyModule.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/modules/AbstractBounceProxyJerseyModule.java">
+</file>
+</checkstyle>

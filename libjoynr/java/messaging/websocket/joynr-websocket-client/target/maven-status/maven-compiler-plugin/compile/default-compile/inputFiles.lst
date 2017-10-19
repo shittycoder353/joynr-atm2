@@ -1,0 +1,5 @@
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-client/src/main/java/io/joynr/messaging/websocket/WebSocketMessagingStubFactory.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-client/src/main/java/io/joynr/messaging/websocket/jetty/client/WebSocketJettyClientFactory.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-client/src/main/java/io/joynr/messaging/websocket/LibjoynrWebSocketModule.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-client/src/main/java/io/joynr/messaging/websocket/jetty/client/WebSocketJettyClient.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-client/src/main/java/io/joynr/messaging/websocket/jetty/client/WebSocketJettyClientModule.java

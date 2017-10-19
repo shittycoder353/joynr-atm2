@@ -1,0 +1,10 @@
+io/joynr/messaging/websocket/server/WebSocketJettyServer.class
+io/joynr/messaging/websocket/server/WebSocketJettyServerModule.class
+io/joynr/messaging/websocket/server/WebSocketJettyServer$1.class
+io/joynr/messaging/websocket/server/WebSocketJettyServer$2.class
+io/joynr/messaging/websocket/server/WebSocketJettyServer$3.class
+io/joynr/messaging/websocket/server/WebSocketJettyServer$2$1.class
+io/joynr/messaging/websocket/server/WebSocketJettyServerFactory.class
+io/joynr/messaging/websocket/server/WebSocketJettyServer$CCWebSocketMessagingSkeletonSocket.class
+io/joynr/messaging/websocket/WebSocketClientMessagingStubFactory.class
+io/joynr/messaging/websocket/server/WebSocketMessageArrivedListener.class

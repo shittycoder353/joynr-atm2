@@ -1,0 +1,15 @@
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/MonitoringServiceImpl.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/package-info.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/exception/JoynrProtocolException.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/BounceProxyControllerPropertyKeys.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/exception/package-info.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/util/ChannelUrlUtil.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/BounceProxyControllerModule.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/strategy/RoundRobinAssignmentStrategy.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/strategy/ChannelAssignmentStrategy.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/util/package-info.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/strategy/package-info.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/RemoteBounceProxyFacade.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/ChannelServiceImpl.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/runtime/package-info.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/runtime/AbstractBounceProxyControllerServletConfig.java

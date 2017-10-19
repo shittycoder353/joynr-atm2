@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.franca.deploymodel.dsl
+Bundle-SymbolicName: org.franca.deploymodel.dsl; singleton:=true
+Bundle-Version: 0.0.1
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+Export-Package: org.franca.deploymodel.dsl,
+ org.franca.deploymodel.dsl.services,
+ org.franca.deploymodel.dsl.parseTreeConstruction,
+ org.franca.deploymodel.dsl.parser.antlr,
+ org.franca.deploymodel.dsl.parser.antlr.internal,
+ org.franca.deploymodel.dsl.validation,
+ org.franca.deploymodel.dsl.scoping,
+ org.franca.deploymodel.dsl.generator,
+ org.franca.deploymodel.dsl.formatting
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.util,
+ org.antlr.runtime,
+ org.eclipse.xtext.xbase.lib
+Import-Package: org.apache.log4j
+

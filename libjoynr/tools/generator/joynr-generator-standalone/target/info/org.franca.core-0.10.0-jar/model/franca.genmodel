@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.franca.core/src-gen" editDirectory="/org.franca.core.edit/src-gen"
+    modelPluginID="org.franca.core" modelName="Franca" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>franca.ecore</foreignModel>
+  <genPackages prefix="Franca" basePackage="org.franca.core" disposableProviderFactory="true"
+      ecorePackage="franca.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="franca.ecore#//FBasicTypeId">
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FBasicTypeId/undefined"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FBasicTypeId/Int8"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FBasicTypeId/UInt8"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FBasicTypeId/Int16"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FBasicTypeId/UInt16"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FBasicTypeId/Int32"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FBasicTypeId/UInt32"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FBasicTypeId/Int64"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FBasicTypeId/UInt64"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FBasicTypeId/Boolean"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FBasicTypeId/String"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FBasicTypeId/Float"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FBasicTypeId/Double"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FBasicTypeId/ByteBuffer"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="franca.ecore#//FAnnotationType">
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FAnnotationType/description"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FAnnotationType/author"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FAnnotationType/experimental"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FAnnotationType/deprecated"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FAnnotationType/see"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FAnnotationType/param"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FAnnotationType/high_volume"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FAnnotationType/high_frequency"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FAnnotationType/source_uri"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FAnnotationType/source_alias"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FAnnotationType/details"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="franca.ecore#//FOperator">
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FOperator/Or"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FOperator/Equal"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FOperator/Unequal"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FOperator/And"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FOperator/Smaller"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FOperator/SmallerOrEqual"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FOperator/GreaterOrEqual"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FOperator/Greater"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FOperator/addition"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FOperator/subtraction"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FOperator/multiplication"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FOperator/division"/>
+      <genEnumLiterals ecoreEnumLiteral="franca.ecore#//FOperator/negation"/>
+    </genEnums>
+    <genClasses ecoreClass="franca.ecore#//FModel">
+      <genFeatures createChild="false" propertyDescription="the package declaration for this model file"
+          ecoreFeature="ecore:EAttribute franca.ecore#//FModel/name"/>
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the list of import statements for this model"
+          ecoreFeature="ecore:EReference franca.ecore#//FModel/imports"/>
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the list of interfaces which are defined in this model"
+          ecoreFeature="ecore:EReference franca.ecore#//FModel/interfaces"/>
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the list of type collections in this model"
+          ecoreFeature="ecore:EReference franca.ecore#//FModel/typeCollections"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//Import">
+      <genFeatures createChild="false" propertyDescription="the namespace which is addressed by this import"
+          ecoreFeature="ecore:EAttribute franca.ecore#//Import/importedNamespace"/>
+      <genFeatures createChild="false" propertyDescription="the URI of the imported resource"
+          ecoreFeature="ecore:EAttribute franca.ecore#//Import/importURI"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FTypeCollection">
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the version of this entity. The Apache major/minor scheme is applied."
+          ecoreFeature="ecore:EReference franca.ecore#//FTypeCollection/version"/>
+      <genFeatures property="None" children="true" createChild="true" propertyCategory=""
+          propertyDescription="the list of Franca types defined in this entity." ecoreFeature="ecore:EReference franca.ecore#//FTypeCollection/types"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference franca.ecore#//FTypeCollection/constants"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FInterface">
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the list of attributes defined for this interface."
+          ecoreFeature="ecore:EReference franca.ecore#//FInterface/attributes"/>
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the list of methods defined by this interface."
+          ecoreFeature="ecore:EReference franca.ecore#//FInterface/methods"/>
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the list of broadcasts defined by this interface"
+          ecoreFeature="ecore:EReference franca.ecore#//FInterface/broadcasts"/>
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the contract of this interface. A contract specifies the semantics of the interface, e.g., the order of the events across this interface."
+          ecoreFeature="ecore:EReference franca.ecore#//FInterface/contract"/>
+      <genFeatures notify="false" createChild="false" propertyDescription="the base interface. Franca allows single inheritance."
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FInterface/base"/>
+      <genFeatures notify="false" createChild="false" propertyDescription="the list of interfaces managed by this interface. The interface will provide methods for discovery and handling of the runtime instances of the managed interfaces. The actual implementation depends on the specific target runtime platform."
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FInterface/managedInterfaces"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FMethod">
+      <genFeatures createChild="false" propertyDescription="a flag which indicates that this method will be just a request from client to server without response. The property will be set to a concrete string if the flag is set (e.g., the string &quot;fireAndForget&quot;). Do not rely on the actual value of this string. If the property is null, the flag isn't set. It can be set only for methods without output arguments."
+          ecoreFeature="ecore:EAttribute franca.ecore#//FMethod/fireAndForget"/>
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the list of input arguments for this method (aka input parameters)."
+          ecoreFeature="ecore:EReference franca.ecore#//FMethod/inArgs"/>
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the list of output arguments for this methods (aka return values)."
+          ecoreFeature="ecore:EReference franca.ecore#//FMethod/outArgs"/>
+      <genFeatures notify="false" createChild="false" propertyDescription="if this property is not null, it represents a definition of method error codes by referencing an enumeration type specified elsewhere. The enumerators of this enumeration type are the error codes the method might return. The enumeration type referenced here might reference a base enumeration. If this property is null, check the errors property instead."
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FMethod/errorEnum"/>
+      <genFeatures notify="false" createChild="false" propertyDescription="if this property is not null, it represents a definition of method error codes by explicitly specifying a list of enumerators. These enumerators are the error codes the method might return. The enumeration type specified here might reference a base enumeration. If this property is null, check the errorEnum property instead."
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FMethod/errors"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute franca.ecore#//FMethod/selector"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FBroadcast">
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the parameters of this broadcast"
+          ecoreFeature="ecore:EReference franca.ecore#//FBroadcast/outArgs"/>
+      <genFeatures createChild="false" propertyDescription="a flag which indicates that this broadcast will not always be send to all clients. The property will be set to a concrete string if the flag is set (e.g., the string &quot;selective&quot;). Do not rely on the actual value of this string. If the property is null, the flag isn't set."
+          ecoreFeature="ecore:EAttribute franca.ecore#//FBroadcast/selective"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute franca.ecore#//FBroadcast/selector"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FAttribute">
+      <genFeatures createChild="false" propertyDescription="indicates if this attribute is read-only. If false, clients are granted write access to the attribute."
+          ecoreFeature="ecore:EAttribute franca.ecore#//FAttribute/readonly"/>
+      <genFeatures createChild="false" propertyDescription="indicates if clients can subscribe to update events for this attribute. If false, subscribing is possible. The reverse logic of this flag is to ensure a proper default in the IDL: if the keyword &quot;noSubscriptions&quot; is not given, subscription is possible."
+          ecoreFeature="ecore:EAttribute franca.ecore#//FAttribute/noSubscriptions"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FArgument"/>
+    <genClasses ecoreClass="franca.ecore#//FType"/>
+    <genClasses ecoreClass="franca.ecore#//FModelElement">
+      <genFeatures createChild="false" propertyCategory="" propertyDescription="the name of this element"
+          ecoreFeature="ecore:EAttribute franca.ecore#//FModelElement/name"/>
+      <genFeatures createChild="false" propertyCategory="" propertyDescription="the structured comment for this element (if any)"
+          ecoreFeature="ecore:EReference franca.ecore#//FModelElement/comment"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FVersion">
+      <genFeatures createChild="false" propertyDescription="the major number of this version specification (e.g., the &quot;1&quot; in &quot;1.0&quot;)."
+          ecoreFeature="ecore:EAttribute franca.ecore#//FVersion/major"/>
+      <genFeatures createChild="false" propertyDescription="the minor number of this version specification (e.g., the &quot;0&quot; in &quot;1.0&quot;)."
+          ecoreFeature="ecore:EAttribute franca.ecore#//FVersion/minor"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FArrayType">
+      <genFeatures notify="false" createChild="false" propertyDescription="the type of this array's elements"
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FArrayType/elementType"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FCompoundType">
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the elements (aka fields) of this compound type"
+          ecoreFeature="ecore:EReference franca.ecore#//FCompoundType/elements"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FTypeDef">
+      <genFeatures notify="false" createChild="false" propertyDescription="the actual type for this type alias"
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FTypeDef/actualType"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FTypedElement">
+      <genFeatures notify="false" createChild="false" propertyDescription="the actual type of this typed element. The type might be predefined or user-defined."
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FTypedElement/type"/>
+      <genFeatures createChild="false" propertyDescription="if the typed element is an implicit array definition, this property will be set to a string (e.g., the string '[]'). If the typed element is a single value (not an array), this property will be null. Do not rely on the actual value of the string."
+          ecoreFeature="ecore:EAttribute franca.ecore#//FTypedElement/array"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FEvaluableElement"/>
+    <genClasses ecoreClass="franca.ecore#//FVariable"/>
+    <genClasses ecoreClass="franca.ecore#//FStructType">
+      <genFeatures notify="false" createChild="false" propertyDescription="the base struct from which this struct inherits. Franca supports single inheritance for structs. Structs which inherit from a base struct cannot be polymorphic."
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FStructType/base"/>
+      <genFeatures createChild="false" propertyDescription="indicates if struct is the root of a polymorphic type hierarchy. Structs may be either extended from a base struct or polymorphic (or none of both)."
+          ecoreFeature="ecore:EAttribute franca.ecore#//FStructType/polymorphic"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FEnumerator">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference franca.ecore#//FEnumerator/value"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FEnumerationType">
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the list of enumerators of this enumeration"
+          ecoreFeature="ecore:EReference franca.ecore#//FEnumerationType/enumerators"/>
+      <genFeatures notify="false" createChild="false" propertyDescription="the base type of this enumeration. Will be null if this enumeration is not derived from any other enumeration."
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FEnumerationType/base"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FMapType">
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the key type which is mapped to the value type. Note: Some IDLs (e.g. D-Bus Introspection) do not allow complex types as keys. Franca doesn't have this restriction."
+          ecoreFeature="ecore:EReference franca.ecore#//FMapType/keyType"/>
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the value type of this map. It might be a predefined or a user-defined type."
+          ecoreFeature="ecore:EReference franca.ecore#//FMapType/valueType"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FTypeRef">
+      <genFeatures createChild="false" propertyDescription="if the referenced type is a predefined type, this property gives the actual predefined type. If the reference type is a user-defined type, this property will be null."
+          ecoreFeature="ecore:EAttribute franca.ecore#//FTypeRef/predefined"/>
+      <genFeatures notify="false" createChild="false" propertyDescription="if the referenced type is a user-defined type, this property gives the actual complex type definition. If the reference type is a predefined type, this property will be null."
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FTypeRef/derived"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference franca.ecore#//FTypeRef/interval"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FConstantDef">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference franca.ecore#//FConstantDef/rhs"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="franca.ecore#//FInitializerExpression"/>
+    <genClasses ecoreClass="franca.ecore#//FInitializer"/>
+    <genClasses ecoreClass="franca.ecore#//FCompoundInitializer">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference franca.ecore#//FCompoundInitializer/elements"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FFieldInitializer">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FFieldInitializer/element"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference franca.ecore#//FFieldInitializer/value"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FBracketInitializer">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference franca.ecore#//FBracketInitializer/elements"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FElementInitializer">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference franca.ecore#//FElementInitializer/first"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference franca.ecore#//FElementInitializer/second"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FAnnotation">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute franca.ecore#//FAnnotation/rawText"/>
+      <genOperations ecoreOperation="franca.ecore#//FAnnotation/getType"/>
+      <genOperations ecoreOperation="franca.ecore#//FAnnotation/getComment"/>
+      <genOperations ecoreOperation="franca.ecore#//FAnnotation/setType">
+        <genParameters ecoreParameter="franca.ecore#//FAnnotation/setType/type"/>
+      </genOperations>
+      <genOperations ecoreOperation="franca.ecore#//FAnnotation/setComment">
+        <genParameters ecoreParameter="franca.ecore#//FAnnotation/setComment/comment"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FAnnotationBlock">
+      <genFeatures property="None" children="true" createChild="true" propertyCategory=""
+          propertyDescription="the elements of this annotation block. Each element represents one tagged comment."
+          ecoreFeature="ecore:EReference franca.ecore#//FAnnotationBlock/elements"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FContract">
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the protocol state machine for this contract. It might use the state variables specified by the variables property."
+          ecoreFeature="ecore:EReference franca.ecore#//FContract/stateGraph"/>
+      <genFeatures property="None" children="true" createChild="true" propertyCategory=""
+          propertyDescription="the declarations of all state variables used by the protocol state machine of this contract"
+          ecoreFeature="ecore:EReference franca.ecore#//FContract/variables"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference franca.ecore#//FDeclaration/rhs"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FStateGraph">
+      <genFeatures notify="false" createChild="false" propertyDescription="this property references the initial state for the protocol state machine."
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FStateGraph/initial"/>
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the list of states comprising this protocol state machine. It contains the intial state."
+          ecoreFeature="ecore:EReference franca.ecore#//FStateGraph/states"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FState">
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the list of outgoing transitions for this state. These transitions lead to the successor states of this state."
+          ecoreFeature="ecore:EReference franca.ecore#//FState/transitions"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FTransition">
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the trigger which fires this transition"
+          ecoreFeature="ecore:EReference franca.ecore#//FTransition/trigger"/>
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="an optional guard for this transition"
+          ecoreFeature="ecore:EReference franca.ecore#//FTransition/guard"/>
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the target state of this transition"
+          ecoreFeature="ecore:EReference franca.ecore#//FTransition/to"/>
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="an optional action which is executed each time this transition fires"
+          ecoreFeature="ecore:EReference franca.ecore#//FTransition/action"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FTrigger">
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the event which will trigger this transition"
+          ecoreFeature="ecore:EReference franca.ecore#//FTrigger/event"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FEventOnIf">
+      <genFeatures notify="false" createChild="false" propertyDescription="if this property is not null, this event represents the calling of a Franca method by a client"
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FEventOnIf/call"/>
+      <genFeatures notify="false" createChild="false" propertyDescription="if this property is not null, this event represents the response of a Franca method by the server"
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FEventOnIf/respond"/>
+      <genFeatures notify="false" createChild="false" propertyDescription="if this property is not null, this event represents the sending of a Franca broadcast by the server"
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FEventOnIf/signal"/>
+      <genFeatures notify="false" createChild="false" propertyDescription="if this property is not null, this event represents the setting of a Franca attribute"
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FEventOnIf/set"/>
+      <genFeatures notify="false" createChild="false" propertyDescription="if this property is not null, this event represents the update action of a Franca attribute"
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FEventOnIf/update"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FEventOnIf/error"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FGuard">
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the boolean condition of this transition guard"
+          ecoreFeature="ecore:EReference franca.ecore#//FGuard/condition"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FUnionType">
+      <genFeatures notify="false" createChild="false" propertyDescription="the base union from which this union inherits. Franca supports single inheritance for unions."
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FUnionType/base"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FField"/>
+    <genClasses ecoreClass="franca.ecore#//FBlock">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference franca.ecore#//FBlock/statements"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FAssignment">
+      <genFeatures notify="false" createChild="false" propertyDescription="the left-hand side of this assignment. It references the state variable which should be set by specifying its declaration."
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FAssignment/lhs"/>
+      <genFeatures property="None" children="true" createChild="true" propertyDescription="the right-hand side of an assignment. This may be an arbitrary expression of the Franca contract action language."
+          ecoreFeature="ecore:EReference franca.ecore#//FAssignment/rhs"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FExpression"/>
+    <genClasses image="false" ecoreClass="franca.ecore#//FStatement"/>
+    <genClasses ecoreClass="franca.ecore#//FQualifiedElementRef">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FQualifiedElementRef/element"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference franca.ecore#//FQualifiedElementRef/qualifier"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FQualifiedElementRef/field"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FMethodErrorEnumRef">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FMethodErrorEnumRef/enumerator"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FCurrentError"/>
+    <genClasses ecoreClass="franca.ecore#//FConstant"/>
+    <genClasses ecoreClass="franca.ecore#//FIntegerConstant">
+      <genFeatures createChild="false" propertyDescription="the value of this integer constant (an actual integer)"
+          ecoreFeature="ecore:EAttribute franca.ecore#//FIntegerConstant/val"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FDoubleConstant">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute franca.ecore#//FDoubleConstant/val"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FFloatConstant">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute franca.ecore#//FFloatConstant/val"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FBooleanConstant">
+      <genFeatures createChild="false" propertyDescription="the value of this boolean constant (an actual boolean)"
+          ecoreFeature="ecore:EAttribute franca.ecore#//FBooleanConstant/val"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FStringConstant">
+      <genFeatures createChild="false" propertyDescription="the value of this string constant (an actual string)"
+          ecoreFeature="ecore:EAttribute franca.ecore#//FStringConstant/val"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="franca.ecore#//FOperation">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute franca.ecore#//FOperation/op"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FBinaryOperation">
+      <genFeatures notify="false" createChild="false" propertyDescription="the left operand of the binary operation"
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FBinaryOperation/left"/>
+      <genFeatures notify="false" createChild="false" propertyDescription="the right operand of the binary operation"
+          propertySortChoices="true" ecoreFeature="ecore:EReference franca.ecore#//FBinaryOperation/right"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FUnaryOperation">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference franca.ecore#//FUnaryOperation/operand"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FIfStatement">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference franca.ecore#//FIfStatement/condition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference franca.ecore#//FIfStatement/then"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference franca.ecore#//FIfStatement/else"/>
+    </genClasses>
+    <genClasses ecoreClass="franca.ecore#//FIntegerInterval">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute franca.ecore#//FIntegerInterval/lowerBound"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute franca.ecore#//FIntegerInterval/upperBound"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

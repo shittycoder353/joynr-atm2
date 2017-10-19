@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>joynr</artifactId>
+        <groupId>io.joynr</groupId>
+        <version>0.29.2</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.joynr.joynr-core-lib</groupId>
+    <artifactId>joynr-core-lib</artifactId>
+    
+    <dependencies>
+		<dependency>
+			<groupId>io.joynr.java.core</groupId>
+			<artifactId>libjoynr-websocket-runtime</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.joynr.java.common</groupId>
+			<artifactId>access-control-common</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+    </dependencies>
+
+    <build>
+		  <plugins>
+		    <plugin>
+		        <groupId>org.apache.maven.plugins</groupId>
+		        <artifactId>maven-shade-plugin</artifactId>
+		        <version>2.4.3</version>
+		        <executions>
+		          <execution>
+		            <phase>package</phase>
+		            <goals>
+		              <goal>shade</goal>
+		            </goals>
+		            <configuration>
+		            	<artifactSet>
+							<includes>
+						    	<include>**</include>
+						  	</includes>
+							<excludes>
+								<exclude>com.google.inject:guice</exclude>
+							</excludes>
+						</artifactSet>
+		            </configuration>
+		          </execution>
+		        </executions>
+		      </plugin>
+	    </plugins>
+    </build>
+
+</project>

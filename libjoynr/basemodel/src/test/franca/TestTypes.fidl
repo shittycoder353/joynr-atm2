@@ -1,0 +1,130 @@
+/*
+ * #%L
+ * %%
+ * Copyright (C) 2011 - 2017 BMW Car IT GmbH
+ * %%
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * #L%
+ */
+package types
+
+typeCollection TestTypes {
+	version { major 49 minor 13 }
+
+	enumeration TEnum {
+		TLiteralA
+		TLiteralB
+	}
+
+	struct TStruct {
+		Double tDouble
+		Int64 tInt64
+		String tString
+	}
+
+	typedef TypeDefForPrimitive is Int32
+	typedef TypeDefForTStruct is TStruct
+	typedef TypeDefForTStringKeyMap is TStringKeyMap
+	typedef TypeDefForTEnum is TEnum
+
+	struct TStructExtended extends TStruct {
+		TEnum tEnum
+		Int32 tInt32
+	}
+
+	struct TStructComposition {
+		TStructExtended[] tStructExtendeds
+	}
+
+	enumeration Vowel {
+		a
+		e
+		i
+		o
+		u
+	}
+
+	struct Word {
+		Vowel[] vowels
+	}
+
+	struct TEverythingStruct polymorphic {
+		Int8 tInt8
+		UInt8 tUInt8
+		Int16 tInt16
+		UInt16 tUInt16
+		Int32 tInt32
+		UInt32 tUInt32
+		Int64 tInt64
+		UInt64 tUInt64
+		Double tDouble
+		Float tFloat
+		String tString
+		Boolean tBoolean
+		ByteBuffer tByteBuffer
+		UInt8[] tUInt8Array
+		TEnum tEnum
+		TEnum[] tEnumArray
+		String[] tStringArray
+		Word word
+		Word[] wordArray
+		TStringKeyMap stringMap
+		TypeDefForTStruct typeDefForTStruct
+	}
+
+	struct TEverythingExtendedStruct extends TEverythingStruct {
+		Boolean tBooleanExtended
+		String	tStringExtended
+	}
+
+	struct TEverythingExtendedExtendedStruct extends TEverythingExtendedStruct {
+		String	tStringExtendedExtended
+	}
+
+	map TStringKeyMap {String to String}
+
+	// duplicate map to check whether code generation is correct
+	map TStringKeyMapDuplicate {String to String}
+
+	map TIntegerKeyMap {Int32 to String}
+
+	map TEverythingMap {TEnum to TEverythingExtendedStruct}
+
+	map TStringToByteBufferMap {String to ByteBuffer}
+
+	struct TStructWithTypedefMembers {
+		TypeDefForPrimitive typeDefForPrimitive
+		TypeDefForTStruct typeDefForTStruct
+		TypeDefForTStringKeyMap typeDefForTStringKeyMap
+		TypeDefForTEnum typeDefForTEnum
+		TypeDefForPrimitive[] arrayOfTypeDefForPrimitive
+		TypeDefForTStruct[] arrayOfTypeDefForTStruct
+		TypeDefForTStringKeyMap[] arrayOfTypeDefForTStringKeyMap
+		TypeDefForTEnum[] arrayOfTypeDefForTEnum
+	}
+}
+
+typeCollection TestTypesWithoutVersion {
+	enumeration EnumInsideTypeCollectionWithoutVersion {
+		TLiteralA
+		TLiteralB
+	}
+
+	struct StructInsideTypeCollectionWithoutVersion {
+		Double tDouble
+		Int64 tInt64
+		String tString
+	}
+
+	map MapInsideTypeCollectionWithoutVersion { String to String }
+}

@@ -1,0 +1,7 @@
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-common/src/main/java/io/joynr/messaging/websocket/WebSocketMulticastAddressCalculator.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-common/src/main/java/io/joynr/messaging/websocket/WebSocketMessagingStub.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-common/src/main/java/io/joynr/messaging/websocket/WebSocketMessagingSkeleton.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-common/src/main/java/io/joynr/messaging/websocket/JoynrWebSocketEndpoint.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-common/src/main/java/io/joynr/messaging/websocket/IWebSocketMessagingSkeleton.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-common/src/main/java/io/joynr/messaging/websocket/WebsocketModule.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-common/src/main/java/io/joynr/messaging/websocket/WebSocketEndpointFactory.java

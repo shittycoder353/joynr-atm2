@@ -1,0 +1,17 @@
+#Mon Oct 16 16:34:16 CEST 2017
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/strategy/ChannelAssignmentStrategy.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/MonitoringServiceImpl.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/ChannelServiceImpl.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/package-info.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/BounceProxyControllerPropertyKeys.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/strategy/package-info.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/util/package-info.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/exception/JoynrProtocolException.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/util/ChannelUrlUtil.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/runtime/package-info.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/runtime/AbstractBounceProxyControllerServletConfig.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/RemoteBounceProxyFacade.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/BounceProxyControllerModule.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/strategy/RoundRobinAssignmentStrategy.java=1507901922000
+configuration*?=C1323F7B6A091505B9F02DAB975C65A00E3DCE84
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/exception/package-info.java=1507901922000

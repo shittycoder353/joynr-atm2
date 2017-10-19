@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/runtime/package-info.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/runtime/AbstractBounceProxyControllerServletConfig.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/ChannelServiceImpl.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/BounceProxyControllerPropertyKeys.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/package-info.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/MonitoringServiceImpl.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/exception/package-info.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/exception/JoynrProtocolException.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/RemoteBounceProxyFacade.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/util/package-info.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/util/ChannelUrlUtil.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/BounceProxyControllerModule.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/strategy/package-info.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/strategy/RoundRobinAssignmentStrategy.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/java/io/joynr/messaging/bounceproxy/controller/strategy/ChannelAssignmentStrategy.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/resources/bounceProxyController.properties">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/main/resources/jetty-logging.properties">
+</file>
+</checkstyle>

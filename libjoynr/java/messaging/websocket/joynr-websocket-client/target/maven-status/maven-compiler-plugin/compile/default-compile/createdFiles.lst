@@ -1,0 +1,8 @@
+io/joynr/messaging/websocket/WebSocketMessagingStubFactory.class
+io/joynr/messaging/websocket/LibjoynrWebSocketModule.class
+io/joynr/messaging/websocket/jetty/client/WebSocketJettyClient$2.class
+io/joynr/messaging/websocket/jetty/client/WebSocketJettyClientFactory.class
+io/joynr/messaging/websocket/jetty/client/WebSocketJettyClient$3.class
+io/joynr/messaging/websocket/jetty/client/WebSocketJettyClient.class
+io/joynr/messaging/websocket/jetty/client/WebSocketJettyClientModule.class
+io/joynr/messaging/websocket/jetty/client/WebSocketJettyClient$1.class

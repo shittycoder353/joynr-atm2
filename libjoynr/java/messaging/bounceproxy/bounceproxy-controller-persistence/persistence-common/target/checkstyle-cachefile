@@ -1,0 +1,10 @@
+#Mon Oct 16 16:34:16 CEST 2017
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/persistence-common/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/inmemory/InMemoryModule.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/persistence-common/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/ChannelDirectory.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/persistence-common/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/inmemory/InMemoryChannelDirectory.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/persistence-common/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/BounceProxyDirectory.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/persistence-common/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/AbstractBounceProxyControllerDirectoriesModule.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/persistence-common/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/BounceProxyRecord.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/persistence-common/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/package-info.java=1507901922000
+configuration*?=EB9986F44247A860F866C944446B2978D2DA9EA8
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/persistence-common/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/inmemory/InMemoryBounceProxyDirectory.java=1507901922000

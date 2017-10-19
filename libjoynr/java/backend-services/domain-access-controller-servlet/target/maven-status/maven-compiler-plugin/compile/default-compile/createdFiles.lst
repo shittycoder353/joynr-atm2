@@ -1,0 +1,4 @@
+io/joynr/accesscontrol/global/servlet/ServletApplication.class
+io/joynr/accesscontrol/global/AccessControlEditorServlet.class
+io/joynr/servlet/ServletModule.class
+io/joynr/accesscontrol/global/servlet/GsonMessageBodyReader.class

@@ -1,0 +1,725 @@
+/*
+ * #%L
+ * %%
+ * Copyright (C) 2011 - 2017 BMW Car IT GmbH
+ * %%
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * #L%
+ */
+package tests
+
+import types.Localisation.* from "LocalisationTypes.fidl"
+import types.TestTypes.* from "TestTypes.fidl"
+
+typeCollection testTypes {
+	version { major 48 minor 12 }
+
+	enumeration TestEnum {
+		ZERO = 0
+		ONE = 1
+		TWO = 2
+	}
+
+	enumeration TestEnumExtended extends TestEnum {
+		THREE = 3
+		FOUR = 4
+	}
+
+	enumeration TestEnumWithoutValues {
+		ALPHA
+		BETA
+		GAMMA
+	}
+
+	struct ComplexTestType {
+		Int32 a
+		Int32 b
+	}
+
+	struct ComplexTestType2 {
+		Int32 c
+		Int32 d
+	}
+
+	struct BaseStruct polymorphic {
+		ComplexTestType c
+		String a
+		GpsLocation l
+	}
+
+	struct DerivedStruct extends BaseStruct {
+		String b
+	}
+
+	struct AnotherDerivedStruct extends BaseStruct {
+		String d
+	}
+
+	struct ComplexStructUsingDerivedStruct {
+		DerivedStruct d
+	}
+
+	struct NeverUsedAsAttributeTypeOrMethodParameterStruct {
+		String name
+	}
+
+	struct HavingComplexArrayMemberStruct {
+		NeverUsedAsAttributeTypeOrMethodParameterStruct[] arrayMember
+	}
+
+	enumeration ErrorEnumBase {
+		BASE_ERROR_TYPECOLLECTION
+	}
+
+	struct DerivedFromStructWithDifferentPackage extends TStruct {
+		String someString
+	}
+
+}
+
+interface TestWithoutVersion {
+	struct StructInsideInterfaceWithoutVersion {
+		Int32 a
+	}
+
+	enumeration EnumInsideInterfaceWithoutVersion {
+		A
+	}
+
+	map MapInsideInterfaceWithoutVersion {
+		String to Int32
+	}
+}
+
+interface TestWithVersion {
+	version { major 47 minor 11 }
+
+	struct StructInsideInterfaceWithVersion {
+		Int32 b
+	}
+
+	enumeration EnumInsideInterfaceWithVersion {
+		B
+	}
+
+	map MapInsideInterfaceWithVersion {
+		String to Int32
+	}
+}
+
+//this interface starts in lower case (in contrary to our modelling guidelines) for testing purposes
+interface test {
+	version { major 47 minor 11 }
+
+	struct StructInsideInterface {
+		Int16 a
+	}
+
+	enumeration EnumInsideInterface {
+		A
+	}
+
+	map MapInsideInterface {
+		String to Int32
+	}
+
+	attribute testTypes.TestEnum enumAttribute
+
+	attribute testTypes.TestEnum enumAttributeReadOnly readonly
+
+	attribute testTypes.TestEnum[] listOfEnumsAttribute
+
+	attribute GpsLocation location
+	attribute Trip mytrip readonly
+	attribute GpsLocation yourLocation readonly
+	attribute Int32 firstPrime
+
+
+	attribute Int32[] listOfInts
+	attribute GpsLocation[] listOfLocations readonly
+	attribute String[] listOfStrings
+
+	//Those two are needed for the java tests:
+	attribute Int32 testAttribute
+	attribute GpsLocation complexTestAttribute
+
+	//Just two methods to test all the other combinations
+	attribute Int32 readWriteAttribute
+	attribute Int32 readOnlyAttribute readonly
+	attribute Int32 writeOnly
+
+	attribute Int32 notifyWriteOnly
+	attribute Int32 notifyReadOnly readonly
+	attribute Int32 notifyReadWrite
+
+	attribute Int32 notify
+	<**
+		@description: this attributes starts with capital letter (in contrary
+			to our modelling guidelines) for testing purposes
+	**>
+	attribute Int32 ATTRIBUTEWITHCAPITALLETTERS
+
+	attribute Int32 attributeWithProviderRuntimeException
+
+	attribute Int32 attributeWithThrownException
+
+	attribute TEverythingMap EverythingMap
+
+	attribute testTypes.HavingComplexArrayMemberStruct[] attributeArrayOfNestedStructs
+
+	attribute ByteBuffer byteBufferAttribute
+
+	attribute TypeDefForTStruct typeDefForTStruct
+
+	attribute TypeDefForTStruct[] typeDefForTStructArray
+
+	attribute TypeDefForPrimitive typeDefForPrimitive
+
+	attribute TypeDefForPrimitive[] typeDefForPrimitiveArray
+
+	method echoCallingPrincipal {
+		out {
+			String callingPrincipal
+		}
+	}
+
+	method fireAndForgetMethod fireAndForget {
+	    in {
+	        String input
+	    }
+	}
+
+	method addNumbers {
+		in {
+			Int32 first
+			Int32 second
+			<** @description: defaultValue 0 **>
+			Int32 third
+		}
+
+		out {
+			Int32 result
+		}
+	}
+
+	method sumInts {
+		in {
+			Int32[] ints
+		}
+
+		out {
+			Int32 result
+		}
+	}
+
+	method methodWithNoInputParameters {
+		out {
+			Int32 result
+		}
+	}
+
+	method methodWithStrings{
+		in {
+			String input
+		}
+		out {
+			String result
+		}
+	}
+
+	method methodWithEnumParameter{
+		in {
+			testTypes.TestEnum input
+		}
+		out {
+			Int32 result
+		}
+	}
+
+	method methodWithByteBuffer{
+		in {
+			ByteBuffer input
+		}
+		out {
+			ByteBuffer result
+		}
+	}
+
+	method methodWithEnumListParameter{
+		in {
+			testTypes.TestEnum[] input
+		}
+		out {
+			Int32 result
+		}
+	}
+
+	method methodFireAndForgetWithoutParams fireAndForget {}
+
+	method methodFireAndForget fireAndForget {
+		in {
+			Int32 intIn
+			String stringIn
+			testTypes.ComplexTestType complexTestTypeIn
+		}
+	}
+
+	method methodFireAndForgetWithEnumWithValues fireAndForget {
+		in {
+			testTypes.TestEnum enumIn
+		}
+	}
+
+	method methodFireAndForgetWithEnumWithoutValues fireAndForget {
+		in {
+			testTypes.TestEnumWithoutValues enumIn
+		}
+	}
+
+	method methodWithEnumWithoutValues {
+		in {
+			testTypes.TestEnumWithoutValues enumIn
+		}
+		out {
+			testTypes.TestEnumWithoutValues enumOut
+		}
+	}
+
+	method methodWithEnumReturn{
+		in {
+			Int32 input
+		}
+		out {
+			testTypes.TestEnum result
+		}
+	}
+
+	method methodWithEnumListReturn{
+		in {
+			Int32 input
+		}
+		out {
+			testTypes.TestEnum[] result
+		}
+	}
+
+	method  methodWithByteArray{
+		in {
+			Int8[] input
+		}
+		out {
+			Int8[] result
+		}
+	}
+
+	method  methodWithPrimitiveTypeDef{
+		in {
+			TypeDefForPrimitive input
+		}
+		out {
+			TypeDefForPrimitive result
+		}
+	}
+
+	method  methodWithCompoundTypeDef{
+		in {
+			TypeDefForTStruct input
+		}
+		out {
+			TypeDefForTStruct result
+		}
+	}
+
+	method  methodEnumDoubleParameters{
+		in {
+			testTypes.TestEnum enumParam
+			Double doubleParam
+		}
+	}
+
+	method  methodStringDoubleParameters{
+		in {
+			String stringParam
+			Double doubleParam
+		}
+	}
+
+	method  methodCustomCustomParameters{
+		in {
+			testTypes.ComplexTestType customParam1
+			testTypes.ComplexTestType2 customParam2
+		}
+	}
+
+	method  methodStringDoubleListParameters{
+		in {
+			String stringParam
+			Double[] doubleListParam
+		}
+	}
+
+	method  methodCustomCustomListParameters{
+		in {
+			testTypes.ComplexTestType customParam
+			testTypes.ComplexTestType2[] customListParam
+		}
+	}
+
+	method  customTypeAndListParameter{
+		in {
+			testTypes.ComplexTestType complexTestType
+			testTypes.BaseStruct[] complexArray
+		}
+	}
+
+	method voidOperation {
+
+	}
+
+	method stringAndBoolParameters{
+		in {
+			String stringParam
+			Boolean boolParam
+		}
+	}
+
+	method mapParameters{
+		in {
+			TStringKeyMap tStringMapIn
+		}
+		out {
+			TStringKeyMap tStringMapOut
+		}
+	}
+
+	method returnPrimeNumbers {
+		in {
+			Int32 upperBound
+		}
+
+		out {
+			Int32[] result
+		}
+	}
+
+	<**
+		@description: used to test sending of Datatypes that contain lists as
+			in/output parameters with lists.
+	**>
+	method optimizeTrip {
+		in {
+			Trip input
+		}
+		out {
+			Trip result
+		}
+	}
+
+	method overloadedOperation {
+		in {
+			testTypes.DerivedStruct input
+		}
+		out {
+			String result
+		}
+	}
+
+	method overloadedOperation {
+		in {
+			testTypes.AnotherDerivedStruct input
+		}
+		out {
+			String result
+		}
+	}
+
+	method overloadedOperation {
+		in {
+			String input
+		}
+		out {
+			testTypes.ComplexTestType result
+		}
+	}
+
+	method overloadedOperation {
+		in {
+			String input1
+			String input2
+		}
+		out {
+			testTypes.ComplexTestType2 result
+		}
+	}
+
+	method optimizeLocations {
+		in {
+			GpsLocation[] input
+		}
+		out {
+			GpsLocation[] result
+		}
+	}
+
+	method toLowerCase {
+		in {
+			String inputString
+		}
+		out {
+			String result
+		}
+	}
+
+	method waitTooLong{
+		in {
+			Int64 ttl_ms
+		}
+		out {
+			String result
+		}
+	}
+
+	method sayHello {
+		out {
+			String result
+		}
+	}
+//does not work, due to bug 654
+//    method Vowel[] optimizeWord {
+//    	inputWord : Vowel[]
+//    }
+//
+//	method Vowel optimizeVowel {
+//		inputVowel : Vowel
+//	}
+
+	method methodWithEnumReturnValue {
+		out {
+			testTypes.TestEnum result
+		}
+	}
+
+	method checkVowel {
+		in {
+			Vowel inputVowel
+		}
+		out {
+			Boolean result
+		}
+	}
+
+	method optimizeLocationList {
+		in {
+			GpsLocation[] inputList
+		}
+		out {
+			GpsLocation[] result
+		}
+	}
+
+	method methodWithErrorEnum {
+		error testTypes.ErrorEnumBase
+	}
+
+	method methodWithMultipleOutAndErrorEnum {
+		out {
+			String out1
+			String out2
+		}
+		error testTypes.ErrorEnumBase
+	}
+
+
+	method methodWithErrorEnumExtended {
+		error extends testTypes.ErrorEnumBase {
+			IMPLICIT_ERROR_TYPECOLLECTION
+		}
+	}
+
+	method methodWithInterfaceErrorEnum {
+		error ErrorEnumInterface
+	}
+
+	method methodWithInterfaceErrorEnumExtended {
+		error extends ErrorEnumInterface {
+			IMPLICIT_ERROR_INTERFACE
+		}
+	}
+
+	method methodWithImplicitErrorEnum {
+		error {
+			IMPLICIT_ERROR
+		}
+	}
+
+	method methodWithProviderRuntimeException {
+	}
+
+	method methodWithThrownException {
+	}
+
+	method methodWithMultipleOutputParameters {
+		out {
+			String aString
+			Int32 aNumber
+			GpsLocation aComplexDataType
+			testTypes.TestEnum anEnumResult
+		}
+	}
+
+	method methodWithAllPossiblePrimitiveParameters {
+		in {
+			Boolean booleanArg
+			//ByteBuffer not supported
+			Double doubleArg
+			Float floatArg
+			Int16 int16Arg
+			Int32 int32Arg
+			Int64 int64Arg
+			Int8 int8Arg
+			//Integer not supported
+			String stringArg
+			UInt16 uInt16Arg
+			UInt32 uInt32Arg
+			UInt64 uInt64Arg
+			UInt8 uInt8Arg
+			//undefined not supported
+		}
+		out {
+			Boolean booleanOut
+			//ByteBuffer not supported
+			Double doubleOut
+			Float floatOut
+			Int16 int16Out
+			Int32 int32Out
+			Int64 int64Out
+			Int8 int8Out
+			//Integer not supported
+			String stringOut
+			UInt16 uInt16Out
+			UInt32 uInt32Out
+			UInt64 uInt64Out
+			UInt8 uInt8Out
+			//undefined not supported
+		}
+	}
+
+	<**
+		@description: Broadcast which has the same name as an attribute for
+			testing possible conflicts.
+	**>
+	broadcast location {
+		out {
+			GpsLocation location
+		}
+	}
+
+	broadcast broadcastWithEnumOutput {
+		out {
+			testTypes.TestEnum testEnum
+		}
+	}
+
+	broadcast locationUpdate {
+		out {
+			GpsLocation location
+		}
+	}
+
+	broadcast locationUpdateWithSpeed {
+		out {
+			GpsLocation location
+			Float currentSpeed
+		}
+	}
+
+	<**
+		@description: Selective broadcast with one output parameter
+		@param: country Only update location when in this country
+		@param: startTime Start update at this time
+		@param: endTime End update at this time
+	**>
+	broadcast locationUpdateSelective selective {
+		out {
+			GpsLocation location
+		}
+	}
+
+	<**
+		@description: Selective broadcast with multiple output parameters
+		@param: country Only update location when in this country
+		@param: startTime Start update at this time
+		@param: endTime End update at this time
+	**>
+	broadcast locationUpdateWithSpeedSelective selective {
+		out {
+			GpsLocation location
+			Float currentSpeed
+		}
+	}
+
+	broadcast broadcastWithSingleArrayParameter {
+		out {
+			String[] singleParam
+		}
+	}
+
+	broadcast broadcastWithByteBufferParameter {
+		out {
+			ByteBuffer byteBufferParameter
+		}
+	}
+
+
+	broadcast broadcastWithMapParameters {
+		out {
+			TStringKeyMap mapParam
+		}
+	}
+
+	broadcast booleanBroadcast selective {
+		out {
+			Boolean b
+		}
+	}
+	broadcast doubleBroadcast selective {
+		out {
+			Double d
+		}
+	}
+	broadcast intBroadcast selective {
+		out {
+			Int32 i32
+		}
+	}
+	broadcast stringBroadcast selective {
+	out {
+		String s
+	}
+}
+	broadcast broadcastWithFiltering selective {
+		out {
+			String stringOut
+			String[] stringArrayOut
+			testTypes.TestEnum[] enumerationArrayOut
+			TEverythingStruct structWithStringArrayOut
+			TEverythingStruct[] structWithStringArrayArrayOut
+		}
+	}
+
+	broadcast emptyBroadcast {}
+
+	enumeration ErrorEnumInterface {
+		BASE_ERROR_INTERFACE
+	}
+}

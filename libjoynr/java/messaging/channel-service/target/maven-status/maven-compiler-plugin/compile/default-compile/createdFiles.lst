@@ -1,0 +1,12 @@
+io/joynr/messaging/service/ChannelServiceConstants.class
+io/joynr/messaging/service/ChannelServiceRestAdapter.class
+io/joynr/messaging/service/ChannelStatusParam.class
+io/joynr/messaging/info/ChannelStatus.class
+io/joynr/messaging/info/BounceProxyInformation.class
+io/joynr/messaging/info/ControlledBounceProxyInformation.class
+io/joynr/messaging/service/ChannelErrorNotifier.class
+io/joynr/messaging/service/ChannelService.class
+io/joynr/messaging/service/ChannelRecoveryService.class
+io/joynr/messaging/info/Channel.class
+io/joynr/messaging/service/ChannelRecoveryServiceRestAdapter.class
+io/joynr/messaging/service/ChannelServiceRestAdapter$1.class

@@ -1,0 +1,5 @@
+JOYNR-SPLIT
+- rozbalit joynrSplit(su tam poskladane veci z gitu + joynr-core-lib)
+- mvn clean install -P joynr-core-lib -DskipTests
+- mvn install co znamena ze sa nie len zbali libka(package) ale sa aj nainstaluje do lokalneho maven repa (tvoj home v nom .m2)
+- 

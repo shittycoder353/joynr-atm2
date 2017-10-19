@@ -1,0 +1,15 @@
+#Mon Oct 16 16:33:45 CEST 2017
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/service/package-info.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/filter/CharacterEncodingFilter.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/service/AbstractMessagingService.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/modules/DefaultBounceProxyModule.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/BounceProxyBroadcaster.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/modules/AbstractBounceProxyJerseyModule.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/filter/CorsFilter.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/filter/MessageSerializationFilter.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/modules/AtmosphereModule.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/service/DefaultBounceProxyChannelServiceImpl.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/LongPollingMessagingDelegate.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/filter/ExpirationFilter.java=1507901922000
+configuration*?=5E574DE31DBF1DE363638014587E971179D3F5EE
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-common/src/main/java/io/joynr/messaging/bounceproxy/modules/package-info.java=1507901922000

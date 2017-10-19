@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <condition else="false" property="skip.copy-notice-and-license-files" value="true">
+    <equals arg2="pom" arg1="jar"/>
+  </condition>
+  <condition else="false" property="skip.unpack-license-info" value="true">
+    <equals arg2="pom" arg1="jar"/>
+  </condition>
+</target>
+</project>

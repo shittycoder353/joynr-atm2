@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-servlet/src/main/java/io/joynr/servlet/ServletModule.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-servlet/src/main/java/io/joynr/accesscontrol/global/AccessControlEditorServlet.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-servlet/src/main/java/io/joynr/accesscontrol/global/servlet/GsonMessageBodyReader.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-servlet/src/main/java/io/joynr/accesscontrol/global/servlet/ServletApplication.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-servlet/src/main/resources/WEB-INF/classes/log4j.properties">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-servlet/src/main/resources/servlet.properties">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/backend-services/domain-access-controller-servlet/src/test/resources/servlet.properties">
+</file>
+</checkstyle>

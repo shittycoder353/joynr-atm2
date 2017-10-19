@@ -1,0 +1,3 @@
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/ehcache/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/ehcache/package-info.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/ehcache/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/ehcache/BounceProxyEhcacheAdapter.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/ehcache/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/ehcache/EhcacheModule.java

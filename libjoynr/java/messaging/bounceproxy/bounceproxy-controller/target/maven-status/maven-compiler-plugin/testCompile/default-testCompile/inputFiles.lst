@@ -1,0 +1,6 @@
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/test/java/io/joynr/messaging/bounceproxy/controller/util/ChannelUrlUtilTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/test/java/io/joynr/messaging/bounceproxy/controller/MonitoringServiceImplTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/test/java/io/joynr/messaging/bounceproxy/controller/ChannelServiceImplTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/test/java/io/joynr/messaging/bounceproxy/controller/RemoteBounceProxyFacadeTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/test/java/io/joynr/messaging/bounceproxy/controller/info/ControlledBounceProxyInformationTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller/src/test/java/io/joynr/messaging/bounceproxy/controller/strategy/RoundRobinAssignmentTest.java

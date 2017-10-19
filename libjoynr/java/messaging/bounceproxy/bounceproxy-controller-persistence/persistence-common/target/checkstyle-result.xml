@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/persistence-common/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/package-info.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/persistence-common/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/BounceProxyDirectory.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/persistence-common/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/inmemory/InMemoryModule.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/persistence-common/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/inmemory/InMemoryChannelDirectory.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/persistence-common/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/inmemory/InMemoryBounceProxyDirectory.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/persistence-common/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/BounceProxyRecord.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/persistence-common/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/AbstractBounceProxyControllerDirectoriesModule.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/persistence-common/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/ChannelDirectory.java">
+</file>
+</checkstyle>

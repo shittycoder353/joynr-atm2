@@ -1,0 +1,134 @@
+/*
+ * #%L
+ * %%
+ * Copyright (C) 2011 - 2017 BMW Car IT GmbH
+ * %%
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * #L%
+ */
+package infrastructure
+
+import types.* from "DiscoveryTypes.fidl"
+
+<**
+	@description: The GlobalCapabilitiesDirectory is a joynr
+	internal interface. The joynr framework uses it to register
+	providers, which are available at a global scope, with the backend.
+	A provider is registered along with parameters which will be used
+	during the arbitration process to select a suitable provider for
+	a proxy. These information are stored in GlobalDiscoveryEntry objects.
+	@see: GlobalDiscoveryEntry
+**>
+interface GlobalCapabilitiesDirectory{
+
+	version {major 0 minor 1}
+
+	<**
+		@description: Registers several providers with the backend.
+	**>
+	method add {
+		in {
+			<**
+				@description: A list which stores information about each provider instance
+				that shall be registered with the backend.
+				@see: GlobalDiscoveryEntry
+			**>
+			GlobalDiscoveryEntry[] globalDiscoveryEntries
+		}
+	}
+
+	<** @description: Registers a single provider with the backend. **>
+	method add {
+		in {
+			<**
+				@description: Information about the provider which shall be registered with
+				the backend.
+				@see: GlobalDiscoveryEntry
+			**>
+			GlobalDiscoveryEntry globalDiscoveryEntry
+		}
+	}
+
+	<**
+		@description: Looks up a list of providers for a domain and an interface name. The domain
+		and interface name correspond to the attributes stored in GlobalDiscoveryEntry.
+		@see: GlobalDiscoveryEntry
+	**>
+	method lookup {
+		in {
+			<** @description: Domain names for which providers shall be returned. **>
+			String[] domains
+			<** @description: The name of the requested provider interface. **>
+			String interfaceName
+		}
+
+		out {
+			<** @description: Information about all providers which were found for the given
+			domain and interface name.
+			**>
+			GlobalDiscoveryEntry[] result
+		}
+	}
+
+	<**
+		@description: Looks up a provider for a given participant Id.
+	**>
+	method lookup {
+		in {
+			<** @description: The participant Id which identifies the requested provider. **>
+			String participantId
+		}
+		out{
+			<** @description: Information about the found provider. **>
+			GlobalDiscoveryEntry result
+		}
+	}
+	<**
+		@description: Unregisters providers from the backend.
+	**>
+	method remove {
+		in {
+			<**
+				@description: The participand Ids which identify the providers that shall be removed
+				from the backend.
+			**>
+			String[] participantIds
+		}
+	}
+
+	<**
+		@description: Unregisters a provider from the backend.
+	**>
+	method remove {
+		in {
+			<**
+				@description: The participant Id which identifies the provider that shall be removed
+				from the backend.
+			**>
+			String participantId
+		}
+	}
+
+	<**
+		@description: Updates the last seen date for a specific cluster controller.
+	**>
+	method touch {
+		in {
+			<**
+				@description: Identifies the cluster controller for which the last
+				seen date shall be updated.
+			**>
+			String clusterControllerId
+		}
+	}
+}

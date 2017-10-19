@@ -1,0 +1,6 @@
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/controlled-bounceproxy/src/test/java/io/joynr/messaging/bounceproxy/ControlledBounceProxyUrlTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/controlled-bounceproxy/src/test/java/io/joynr/messaging/bounceproxy/monitoring/BounceProxyStartupReporterTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/controlled-bounceproxy/src/test/java/io/joynr/messaging/bounceproxy/monitoring/MonitoringServiceClientTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/controlled-bounceproxy/src/test/java/io/joynr/messaging/bounceproxy/monitoring/PerformanceReporterTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/controlled-bounceproxy/src/test/java/io/joynr/messaging/bounceproxy/runtime/BounceProxySystemPropertyLoaderTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/controlled-bounceproxy/src/test/java/io/joynr/messaging/bounceproxy/monitoring/MockitoTestUtils.java

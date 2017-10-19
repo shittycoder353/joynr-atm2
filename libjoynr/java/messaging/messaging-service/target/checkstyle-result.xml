@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/messaging-service/src/main/java/io/joynr/messaging/service/package-info.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/messaging-service/src/main/java/io/joynr/messaging/service/MessagingService.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/messaging-service/src/main/java/io/joynr/messaging/service/MessagingServiceRestAdapter.java">
+</file>
+</checkstyle>

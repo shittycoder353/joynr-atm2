@@ -1,0 +1,11 @@
+#Mon Oct 16 16:34:19 CEST 2017
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/jdbc/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/jdbc/entities/BounceProxyInformationEntity.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/jdbc/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/jdbc/entities/ChannelEntity.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/jdbc/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/jdbc/JdbcModule.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/jdbc/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/jdbc/ChannelDatabase.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/jdbc/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/jdbc/package-info.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/jdbc/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/jdbc/entities/package-info.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/jdbc/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/jdbc/entities/BounceProxyEntity.java=1507901922000
+configuration*?=0539E4D74346E428D9BF35A7E18C3D606BB8586A
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/jdbc/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/jdbc/DirectoriesLifecycleManager.java=1507901922000
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/jdbc/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/jdbc/BounceProxyDatabase.java=1507901922000

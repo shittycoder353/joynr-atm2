@@ -1,0 +1,12 @@
+io/joynr/messaging/mqtt/DefaultMqttClientIdProviderTest$1.class
+io/joynr/messaging/mqtt/DefaultMqttTopicPrefixProviderTest.class
+io/joynr/messaging/mqtt/MqttMessagingStubTest.class
+io/joynr/messaging/mqtt/MqttMessagingSkeletonTest$2.class
+io/joynr/messaging/mqtt/paho/client/MqttPahoClientTest$1.class
+io/joynr/messaging/mqtt/paho/client/MqttPahoClientTest$1$1.class
+io/joynr/messaging/mqtt/SharedSubscriptionsMqttMessagingSkeletonTest.class
+io/joynr/messaging/mqtt/DefaultMqttTopicPrefixProviderTest$1.class
+io/joynr/messaging/mqtt/MqttMessagingSkeletonTest.class
+io/joynr/messaging/mqtt/DefaultMqttClientIdProviderTest.class
+io/joynr/messaging/mqtt/paho/client/MqttPahoClientTest.class
+io/joynr/messaging/mqtt/MqttMessagingSkeletonTest$1.class

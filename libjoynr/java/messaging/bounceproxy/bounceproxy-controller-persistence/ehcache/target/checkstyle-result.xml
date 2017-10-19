@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/ehcache/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/ehcache/package-info.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/ehcache/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/ehcache/BounceProxyEhcacheAdapter.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy/bounceproxy-controller-persistence/ehcache/src/main/java/io/joynr/messaging/bounceproxy/controller/directory/ehcache/EhcacheModule.java">
+</file>
+</checkstyle>

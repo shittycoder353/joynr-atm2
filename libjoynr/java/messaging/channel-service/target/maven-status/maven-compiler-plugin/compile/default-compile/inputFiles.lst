@@ -1,0 +1,13 @@
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/info/Channel.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelService.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelServiceRestAdapter.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/info/ChannelStatus.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelRecoveryServiceRestAdapter.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/info/package-info.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/info/BounceProxyInformation.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelStatusParam.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelServiceConstants.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelErrorNotifier.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/package-info.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/info/ControlledBounceProxyInformation.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/channel-service/src/main/java/io/joynr/messaging/service/ChannelRecoveryService.java

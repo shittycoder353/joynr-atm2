@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-client/src/main/java/io/joynr/messaging/websocket/LibjoynrWebSocketModule.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-client/src/main/java/io/joynr/messaging/websocket/jetty/client/WebSocketJettyClientModule.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-client/src/main/java/io/joynr/messaging/websocket/jetty/client/WebSocketJettyClientFactory.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-client/src/main/java/io/joynr/messaging/websocket/jetty/client/WebSocketJettyClient.java">
+</file>
+<file name="/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/websocket/joynr-websocket-client/src/main/java/io/joynr/messaging/websocket/WebSocketMessagingStubFactory.java">
+</file>
+</checkstyle>

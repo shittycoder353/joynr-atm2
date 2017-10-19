@@ -1,0 +1,7 @@
+io/joynr/messaging/bounceproxy/controller/directory/jdbc/entities/BounceProxyEntity.class
+io/joynr/messaging/bounceproxy/controller/directory/jdbc/BounceProxyDatabase.class
+io/joynr/messaging/bounceproxy/controller/directory/jdbc/entities/ChannelEntity.class
+io/joynr/messaging/bounceproxy/controller/directory/jdbc/entities/BounceProxyInformationEntity.class
+io/joynr/messaging/bounceproxy/controller/directory/jdbc/ChannelDatabase.class
+io/joynr/messaging/bounceproxy/controller/directory/jdbc/DirectoriesLifecycleManager.class
+io/joynr/messaging/bounceproxy/controller/directory/jdbc/JdbcModule.class

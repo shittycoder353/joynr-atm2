@@ -1,0 +1,4 @@
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy-controller-service/src/test/java/io/joynr/messaging/service/BounceProxyInstanceLifeCycleTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy-controller-service/src/test/java/io/joynr/messaging/service/BounceProxyMigrationTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy-controller-service/src/test/java/io/joynr/messaging/info/BounceProxyStatusTest.java
+/home/dev/joynr-tests/netbeans-joynrsplit/libjoynr/java/messaging/bounceproxy-controller-service/src/test/java/io/joynr/messaging/info/PerformanceMeasuresTest.java

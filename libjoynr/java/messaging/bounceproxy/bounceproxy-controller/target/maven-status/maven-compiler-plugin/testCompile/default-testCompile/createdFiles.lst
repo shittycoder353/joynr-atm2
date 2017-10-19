@@ -1,0 +1,11 @@
+io/joynr/messaging/bounceproxy/controller/info/ControlledBounceProxyInformationTest.class
+io/joynr/messaging/bounceproxy/controller/MonitoringServiceImplTest$1.class
+io/joynr/messaging/bounceproxy/controller/RemoteBounceProxyFacadeTest$2.class
+io/joynr/messaging/bounceproxy/controller/ChannelServiceImplTest.class
+io/joynr/messaging/bounceproxy/controller/ChannelServiceImplTest$1.class
+io/joynr/messaging/bounceproxy/controller/RemoteBounceProxyFacadeTest.class
+io/joynr/messaging/bounceproxy/controller/util/ChannelUrlUtilTest.class
+io/joynr/messaging/bounceproxy/controller/strategy/RoundRobinAssignmentTest$1.class
+io/joynr/messaging/bounceproxy/controller/RemoteBounceProxyFacadeTest$1.class
+io/joynr/messaging/bounceproxy/controller/MonitoringServiceImplTest.class
+io/joynr/messaging/bounceproxy/controller/strategy/RoundRobinAssignmentTest.class

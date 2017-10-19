@@ -1,0 +1,7 @@
+io/joynr/accesscontrol/global/GlobalDomainRoleControllerProviderImpl.class
+io/joynr/accesscontrol/global/GlobalDomainAccessControllerLauncher.class
+io/joynr/accesscontrol/global/GlobalDomainAccessStoreAdmin.class
+io/joynr/accesscontrol/global/GlobalDomainAccessControllerProviderImpl.class
+io/joynr/accesscontrol/global/GlobalDomainAccessControllerModule.class
+io/joynr/accesscontrol/global/GlobalDomainAccessStoreAdminEhCache.class
+io/joynr/accesscontrol/global/GlobalDomainAccessControlListEditorProviderImpl.class
